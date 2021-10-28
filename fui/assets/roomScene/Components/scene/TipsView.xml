@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="282,47" opaque="false">
+  <displayList>
+    <loader id="n5_n86c" name="tipsLoader" xy="0,0" size="282,47" alpha="0" touchable="false" url="ui://0lwk28v8n86c78j" align="center" vAlign="middle"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n5_n86c" tween="true" startValue="0" endValue="1" duration="12" ease="Linear"/>
+    <item time="0" type="XY" target="n5_n86c" tween="true" startValue="0,100" endValue="0,0" duration="12" ease="Linear"/>
+    <item time="12" type="Alpha" target="n5_n86c" tween="true" startValue="1" endValue="0" duration="12" ease="Linear"/>
+    <item time="12" type="XY" target="n5_n86c" tween="true" startValue="0,0" endValue="0,-100" duration="12" ease="Linear"/>
+  </transition>
+</component>

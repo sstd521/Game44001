@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1089,467" overflow="scroll">
+  <displayList>
+    <list id="n4_rgdn" name="fishList" xy="-3,0" size="1087,453" layout="flow_hz" overflow="scroll" margin="0,0,12,0" lineGap="13" colGap="15" defaultItem="ui://75q2l4murgdn5j" autoClearItems="true">
+      <item icon="ui://0lwk28v8n8sw759"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

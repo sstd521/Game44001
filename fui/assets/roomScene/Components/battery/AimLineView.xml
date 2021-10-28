@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,22" pivot="0,0.5" anchor="true" opaque="false" mask="n29_d7af">
+  <displayList>
+    <image id="n0_q4y6" name="n0" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="62,0"/>
+    <image id="n1_q4y6" name="n1" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="124,0"/>
+    <image id="n2_q4y6" name="n2" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="186,0"/>
+    <image id="n3_q4y6" name="n3" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="248,0"/>
+    <image id="n4_q4y6" name="n4" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="310,0"/>
+    <image id="n5_q4y6" name="n5" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="372,0"/>
+    <image id="n6_q4y6" name="n6" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="434,0"/>
+    <image id="n7_q4y6" name="n7" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="496,0"/>
+    <image id="n8_q4y6" name="n8" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="558,0"/>
+    <image id="n9_q4y6" name="n9" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="620,0"/>
+    <image id="n10_q4y6" name="n10" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="0,0"/>
+    <image id="n11_q4y6" name="n11" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="744,0"/>
+    <image id="n12_q4y6" name="n12" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="806,0"/>
+    <image id="n13_q4y6" name="n13" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="868,0"/>
+    <image id="n14_q4y6" name="n14" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="930,0"/>
+    <image id="n15_q4y6" name="n15" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="992,0"/>
+    <image id="n16_q4y6" name="n16" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="1054,0"/>
+    <image id="n17_q4y6" name="n17" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="1116,0"/>
+    <image id="n18_q4y6" name="n18" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="1178,0"/>
+    <image id="n19_q4y6" name="n19" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="1240,0"/>
+    <image id="n20_q4y6" name="n20" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="682,0"/>
+    <image id="n26_q4y6" name="n26" src="q4y671a" fileName="Assets/battery/aimLine.png" xy="1302,0"/>
+    <graph id="n29_d7af" name="mask" xy="0,0" size="1334,23" type="rect"/>
+  </displayList>
+</component>

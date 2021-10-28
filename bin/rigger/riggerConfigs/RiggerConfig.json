@@ -1,0 +1,193 @@
+{
+    "applicationName": "Untiled App",
+    "projectType": "application",
+    "srcRoot": "./src",
+    "libPathes": [
+        "./libs/**/*.ts"
+    ],
+    "outRoot": "./dist",
+    "binRoot": "./bin",
+
+    "customServicesRoot": [
+        "./src/services",
+        "./src/gameServices"
+    ],
+        "services": [
+        [
+            {
+                "fullName": "rigger.service.ExtendXMLHttpBasedConfigService",
+                "src": "git:git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.ExtendXMLHttpBasedConfigService.git",
+                "version": "1.0.0",
+                "desc": "扩展后的基于XMLHhttp的配置服务"
+            },
+            {
+                "fullName": "rigger.service.AssetsService",
+                "src": "git:git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.AssetsService.git",
+                "version": "1.0.0",
+                "plugins": [
+                    {
+                        "fullName": "rigger.service.LayaAssetsVersionPlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.LayaAssetsVersionPlugin.git",
+                        "version": "2.0.0",
+                        "desc": "LAYA"
+                    },
+                    {
+
+                        "fullName": "rigger.service.LayaLoaderPlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.LayaLoaderPlugin.git",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+
+            {
+                "fullName": "rigger.service.NetworkService",
+                "src": "git:git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.NetworkService.git",
+                "version": "1.0.0",
+                "plugins": [
+                    {
+
+                        "fullName": "rigger.service.LayaNetworkChannelPlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.LayaNetworkChannelPlugin.git",
+                        "version": "1.0.0"
+                    },
+                    {
+
+                        "fullName": "rigger.service.ProtobufferEncoderPlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.ProtobufferEncoderPlugin.git",
+                        "version": "1.0.0"
+                    },
+                    {
+
+                        "fullName": "NetserviceSignalRouingPlugin"
+                    },
+                    {
+                        "fullName": "ProtocolCodeAssemblerPlugin"
+                    }
+                ],
+                "channels": [
+                    {
+                        "channelName": "GameChannel"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "fullName": "rigger.service.AssetsPackageService",
+                "src": "git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.AssetsPackageService.git",
+                "version": "1.0.0",
+                "desc": "通用的资源管理服务",
+                "plugins": [
+                    {
+
+                        "fullName": "rigger.service.FairyGUIPackagePlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.FairyGUIPackagePlugin.git",
+                        "version": "1.0.1"
+                    },
+                    {
+
+                        "fullName": "rigger.service.PackageUrlPlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.PackageUrlPlugin.git",
+                        "version": "1.0.1"
+                    }
+                ],
+
+                "packageGroups": {
+                    "init": [
+                        "loading"
+                    ],
+                    "preloading": [
+                        "commonUI",
+
+                        "loginUi",
+                        "entry",
+                        "roomScene",
+                        "briefUI"
+                    ]
+                }
+            },
+
+            {
+                "fullName": "rigger.service.TimeService",
+                "src": "git:git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.TimeService.git",
+                "version": "1.0.0",
+                "plugins": [
+                    {
+
+                        "fullName": "rigger.service.LayaLocalTimePlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.LayaLocalTimePlugin.git",
+                        "version": "1.0.0"
+                    },
+                    {
+
+                        "fullName": "rigger.service.LayaTimerPlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.LayaTimerPlugin.git",
+                        "version": "1.0.0"
+                    }
+                ]
+            }
+        ],
+        [
+
+            {
+                "fullName": "rigger.service.HeartBeatService",
+                "src": "git:git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.HeartBeatService.git",
+                "version": "1.0.0",
+
+                "duration": 9000,
+
+                "timeoutNum": 3,
+                "plugins": [
+                    {
+                        "fullName": "HeartBeatProtocolPlugin"
+                    }
+                ]
+            }
+        ],
+        [
+
+            {
+                "fullName": "ConnectService",
+                "src": "",
+                "dest": ""
+            }
+        ],
+        [
+
+            {
+                "fullName": "MainLogicService",
+                "src": "git@git.jinpin.com:riggerPublish/releasedRiggerServices/MainLogicService.git",
+                "version": "1.0.0",
+                "plugins":[
+                    {
+                        "fullName": "LayaEnginePlugin"
+                    }
+                ],
+                "entrance": "startArgs:entrance",
+                "defaultFont": "黑体",
+                "width": 1334,
+                "height": 750,
+
+                "scaleMode": "full",
+                "screenMode": "horizontal",
+                "backgroundColor": "#FFFFFF",
+                "resVersionAvailable": false,
+                "renderMode": 2,
+                "webGL": true,
+                "frameRate": "fast"
+            }
+        ]
+    ],
+    "packages": [
+        {
+            "fullName": "",
+            "src": "",
+            "dist": ""
+        }
+    ],
+
+    "gameId": 4001,
+    "defaultVolumn": 5,
+    "testToken": ""
+}

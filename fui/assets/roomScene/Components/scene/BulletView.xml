@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden">
+  <controller name="c1" pages="0,,1,,2,,3," selected="3"/>
+  <controller name="attackModelControl" pages="0,lock,1,auto,2,normal" selected="0"/>
+  <displayList>
+    <component id="n0_9lp3" name="player1" src="9lp3h" fileName="Components/scene/BatteryView.xml" xy="58,659" pivot="0.5,0"/>
+    <component id="n1_glv2" name="player2" src="9lp3h" fileName="Components/scene/BatteryView.xml" xy="837,659" pivot="0.5,0"/>
+    <component id="n2_glv2" name="player3" src="9lp3h" fileName="Components/scene/BatteryView.xml" xy="58,0" pivot="0.5,0"/>
+    <component id="n3_glv2" name="player4" src="9lp3h" fileName="Components/scene/BatteryView.xml" xy="837,0" pivot="0.5,0"/>
+    <component id="n4_kz7e" name="lockBtn" src="kz7e11" fileName="Components/scene/lockBtn.xml" xy="1213,215">
+      <gearIcon controller="attackModelControl" pages="0,1,2" values="ui://0lwk28v8uhyn79h|ui://0lwk28v8kz7e10|ui://0lwk28v8kz7e10"/>
+      <Button icon="ui://0lwk28v8uhyn79h"/>
+    </component>
+    <component id="n5_kz7e" name="autoFireBtn" src="kz7e13" fileName="Components/scene/unLockBtn.xml" xy="1213,394">
+      <gearIcon controller="attackModelControl" pages="0,1,2" values="ui://0lwk28v8kz7e12|ui://0lwk28v8uhyn79i|ui://0lwk28v8kz7e12"/>
+      <Button icon="ui://0lwk28v8kz7e12"/>
+    </component>
+    <loader id="n6_mfyk" name="lockTipLoader" xy="1213,323" size="106,29" touchable="false" url="ui://0lwk28v8d7af71e" align="center" vAlign="middle"/>
+    <loader id="n7_mfyk" name="autoTipLoader" xy="1216,500" size="104,30" touchable="false" url="ui://0lwk28v8d7af71f" align="center" vAlign="middle"/>
+    <image id="n9_n86c" name="goldPosition" src="mnwy72s" fileName="Assets/scene/bydr_dt_icon_jinbi.png" xy="1090,37" pivot="0.5,0.5" scale="0.5,0.5" visible="false">
+      <gearXY controller="c1" pages="0,1,2,3" values="41,695|1090,695|40,34|1090,37"/>
+    </image>
+    <component id="n12_kw4n" name="attackModelAniView" src="uhyn79g" fileName="Components/scene/AttackModelAniView.xml" xy="1135,136" touchable="false">
+      <gearDisplay controller="attackModelControl" pages="0,1"/>
+      <gearXY controller="attackModelControl" pages="1" values="1138,317" default="1135,136"/>
+    </component>
+  </displayList>
+</component>

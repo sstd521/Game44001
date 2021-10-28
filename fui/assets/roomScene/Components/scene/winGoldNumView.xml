@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="453,56" opaque="false">
+  <displayList>
+    <text id="n0_n86c" name="winGoldTxt" xy="9,0" pivot="0.5,0.5" size="435,56" font="ui://0lwk28v8n86c78b" fontSize="12" vAlign="middle" text="+01.23456789"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n0_n86c" tween="true" startValue="1" endValue="1" duration="6" ease="Linear"/>
+    <item time="0" type="XY" target="n0_n86c" tween="true" startValue="0,57" endValue="0,0" duration="6" ease="Linear"/>
+    <item time="6" type="Alpha" target="n0_n86c" tween="true" startValue="1" endValue="0" duration="6" ease="Linear"/>
+    <item time="6" type="XY" target="n0_n86c" tween="true" startValue="0,0" endValue="0,-56" duration="6" ease="Linear"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n0_n86c" value="1"/>
+    <item time="0" type="Scale" target="n0_n86c" tween="true" startValue="1,1" endValue="1.5,1.5" duration="6" ease="Linear"/>
+    <item time="6" type="Scale" target="n0_n86c" tween="true" startValue="1.5,1.5" endValue="1,1" duration="6" ease="Linear"/>
+    <item time="12" type="Alpha" target="n0_n86c" tween="true" startValue="1" endValue="0" duration="6" ease="Linear"/>
+  </transition>
+</component>

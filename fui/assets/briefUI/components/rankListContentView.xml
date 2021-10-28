@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1105,454" mask="n15_tb5z">
+  <displayList>
+    <graph id="n15_tb5z" name="n15" xy="0,0" size="1105,454" type="rect"/>
+    <list id="n14_fc6p" name="list" xy="0,0" size="1105,454" overflow="scroll" align="center" autoClearItems="true">
+      <item url="ui://75q2l4muqw20t"/>
+      <item url="ui://75q2l4muqw20t"/>
+      <item url="ui://75q2l4muqw20t"/>
+      <item url="ui://75q2l4muqw20t"/>
+    </list>
+  </displayList>
+</component>

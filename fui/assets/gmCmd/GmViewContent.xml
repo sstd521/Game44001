@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="607,304">
+  <displayList>
+    <image id="n0_nt5j" name="n0" src="8eoc1" xy="0,0"/>
+    <graph id="n7_nt5j" name="n7" xy="13,16" size="225,275" type="rect" lineColor="#ff666666" fillColor="#ff666666"/>
+    <list id="n6_nt5j" name="gmList" xy="12,17" size="227,274" overflow="scroll" margin="0,0,2,0" lineGap="5" defaultItem="ui://lnswovbz8eoc2" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n8_nt5j" name="gmInput" xy="248,23" size="348,206" input="true" prompt="请输入GM指令&#xD;或从左侧列表中选择;&#xD;&#xD;&#xD;请点击遮罩层关闭" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="none" text=""/>
+    <component id="n10_nt5j" name="confirmBtn" src="8eoc5" xy="249,254" size="165,35">
+      <Button title="确认" titleFontSize="30"/>
+    </component>
+    <component id="n11_nt5j" name="cancelBtn" src="8eoc5" xy="430,254" size="165,35">
+      <Button title="取消" titleFontSize="30"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="883,502">
+  <displayList>
+    <list id="n0_mdi5" name="serverList" xy="0,0" size="284,441" overflow="scroll" lineGap="5" defaultItem="ui://liobtiy98eoc4">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n1_mdi5" name="infoTitle" xy="285,3" size="215,44" fontSize="35" text="服务器信息："/>
+    <text id="n2_mdi5" name="serverInfoLabel" xy="285,61" size="598,376" fontSize="35" autoSize="none" text="服务器名：黄亮&#xA;服务器IP：133.26.0.2&#xA;服务器端口：8080"/>
+  </displayList>
+</component>

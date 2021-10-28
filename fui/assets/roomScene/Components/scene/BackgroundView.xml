@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden">
+  <displayList>
+    <component id="n0_9lp3" name="bg1_1" src="mnwy73s" fileName="Components/scene/LoopBackgroundView_1.xml" xy="-333,0"/>
+    <component id="n22_mnwy" name="bg2_1" src="mnwy73s" fileName="Components/scene/LoopBackgroundView_1.xml" xy="1667,0"/>
+    <component id="n25_uhyn" name="waveAniView" src="uhyn797" fileName="Components/scene/waveAniView.xml" xy="0,0"/>
+    <component id="n26_uhyn" name="bg1_2" src="uhyn798" fileName="Components/scene/LoopBackgroundView_2.xml" xy="-333,2"/>
+    <component id="n27_uhyn" name="bg2_2" src="uhyn798" fileName="Components/scene/LoopBackgroundView_2.xml" xy="1667,2"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n0_9lp3" label="move1" tween="true" startValue="-333,0" endValue="-2333,0" duration="24" ease="Linear"/>
+    <item time="0" type="XY" target="n22_mnwy" label="move1" tween="true" startValue="1667,0" endValue="-333,0" duration="24" ease="Linear"/>
+    <item time="0" type="XY" target="n26_uhyn" label="move1" tween="true" startValue="-333,2" endValue="-2333,2" duration="24" ease="Linear"/>
+    <item time="0" type="XY" target="n27_uhyn" label="move1" tween="true" startValue="1667,2" endValue="-333,2" duration="24" ease="Linear"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="XY" target="n0_9lp3" label="move2" tween="true" startValue="1667,0" endValue="-333,0" duration="24" ease="Linear"/>
+    <item time="0" type="XY" target="n22_mnwy" label="move2" tween="true" startValue="-333,0" endValue="-2333,0" duration="24" ease="Linear"/>
+    <item time="0" type="XY" target="n26_uhyn" label="move2" tween="true" startValue="1667,2" endValue="-333,2" duration="24" ease="Linear"/>
+    <item time="0" type="XY" target="n27_uhyn" label="move2" tween="true" startValue="-333,2" endValue="-2333,2" duration="24" ease="Linear"/>
+  </transition>
+</component>

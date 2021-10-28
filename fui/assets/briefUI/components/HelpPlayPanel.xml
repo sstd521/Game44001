@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1068,381" overflow="hidden" mask="n2_m1sv">
+  <displayList>
+    <graph id="n2_m1sv" name="n2" xy="0,0" size="1068,381" type="rect"/>
+    <component id="n0_fc6p" name="n0" src="uhyn77i" fileName="components/HelpPlayContentView.xml" xy="0,0"/>
+  </displayList>
+</component>

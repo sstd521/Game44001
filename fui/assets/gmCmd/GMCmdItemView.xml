@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="223,33">
+  <displayList>
+    <component id="n7_8eoc" name="btn" src="ekuc9" fileName="GmCmdBtn.xml" xy="0,0" size="223,33">
+      <Button titleFontSize="20"/>
+    </component>
+  </displayList>
+</component>

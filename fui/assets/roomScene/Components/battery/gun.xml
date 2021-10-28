@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,113">
+  <controller name="c1" pages="0,gun1,1,gun2,2,gun3" selected="2"/>
+  <displayList>
+    <loader id="n0_9lp3" name="gunLoader" xy="0,0" pivot="0.5,1" size="102,113" touchable="false" url="ui://0lwk28v8n86c77i" align="center" vAlign="middle" playing="false" frame="1">
+      <gearIcon controller="c1" pages="0,1" values="ui://0lwk28v8n86c77g|ui://0lwk28v8n86c77h" default="ui://0lwk28v8n86c77i"/>
+    </loader>
+    <loader id="n1_n86c" name="lightAniLoader" xy="-7,9" size="102,113" url="ui://0lwk28v8n86c77m" align="center" vAlign="middle">
+      <gearXY controller="c1" pages="0,1,2" values="0,25|1,14|-7,9"/>
+      <gearIcon controller="c1" pages="0,1" values="ui://0lwk28v8n86c77k|ui://0lwk28v8n86c77l" default="ui://0lwk28v8n86c77m"/>
+    </loader>
+  </displayList>
+</component>

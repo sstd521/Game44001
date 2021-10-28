@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5xl6v9kd" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="rkgx0" name="EntryView.xml" path="/Components/" exported="true"/>
+    <image id="tg888q" name="bg.png" path="/Assets/"/>
+    <component id="tg8891" name="EntryItem.xml" path="/Components/" exported="true"/>
+    <component id="tg8892" name="InfoView.xml" path="/Components/"/>
+    <component id="tg8894" name="MenuView.xml" path="/Components/"/>
+    <component id="tg8895" name="MenuBtn.xml" path="/Components/"/>
+    <component id="tg8896" name="EntryContext.xml" path="/Components/"/>
+    <image id="qw2098" name="1.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw2099" name="2.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209a" name="3.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209b" name="0.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209c" name="10.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209d" name="11.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209e" name="12.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209f" name="13.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209g" name="14.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209h" name="15.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209i" name="16.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209j" name="17.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209k" name="18.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209l" name="19.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209m" name="20.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209n" name="21.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209o" name="22.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209p" name="23.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209q" name="4.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209r" name="5.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209s" name="6.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209t" name="7.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209u" name="8.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209v" name="9.png" path="/Assets/gold/" exported="true"/>
+    <image id="qw209x" name="bydr_dt_bg_01bei.png" path="/Assets/"/>
+    <image id="qw209y" name="bydr_dt_bg_10bei.png" path="/Assets/"/>
+    <image id="qw209z" name="bydr_dt_bg_1bei.png" path="/Assets/"/>
+    <image id="qw20a0" name="bydr_dt_bg_jiangchi.png" path="/Assets/"/>
+    <image id="qw20a1" name="bydr_dt_bg_jinbik.png" path="/Assets/"/>
+    <image id="qw20a2" name="bydr_dt_bg_jindut.png" path="/Assets/"/>
+    <image id="qw20a3" name="bydr_dt_bg_touxk.png" path="/Assets/"/>
+    <image id="qw20a4" name="bydr_dt_btn_bangzhu.png" path="/Assets/btn/" exported="true"/>
+    <image id="qw20a5" name="bydr_dt_btn_baobiao.png" path="/Assets/btn/" exported="true"/>
+    <image id="qw20a6" name="bydr_dt_btn_dt.png" path="/Assets/btn/" exported="true"/>
+    <image id="qw20a7" name="bydr_dt_btn_paihang.png" path="/Assets/btn/" exported="true"/>
+    <image id="qw20a8" name="bydr_dt_btn_shezhi.png" path="/Assets/btn/" exported="true"/>
+    <image id="qw20a9" name="bydr_dt_icon_jinbi.png" path="/Assets/"/>
+    <image id="qw20aa" name="bydr_dt_icon_toux.png" path="/Assets/"/>
+    <image id="qw20ab" name="捕鱼主界面大厅效果图.png" path="/Assets/"/>
+    <image id="qw20ac" name="bydr_dt_num_0.png" path="/Assets/font/bydr2/" exported="true"/>
+    <image id="qw20ad" name="bydr_dt_num_1.png" path="/Assets/font/bydr2/" exported="true"/>
+    <image id="qw20ae" name="bydr_dt_num_2.png" path="/Assets/font/bydr2/" exported="true"/>
+    <image id="qw20af" name="bydr_dt_num_4.png" path="/Assets/font/bydr2/" exported="true"/>
+    <image id="qw20ag" name="bydr_dt_num_5.png" path="/Assets/font/bydr2/" exported="true"/>
+    <image id="qw20ah" name="bydr_dt_num_6.png" path="/Assets/font/bydr2/" exported="true"/>
+    <image id="qw20ai" name="bydr_dt_num_7.png" path="/Assets/font/bydr2/" exported="true"/>
+    <image id="qw20aj" name="bydr_dt_num_8.png" path="/Assets/font/bydr2/" exported="true"/>
+    <image id="qw20ak" name="bydr_dt_num_9.png" path="/Assets/font/bydr2/" exported="true"/>
+    <image id="qw20al" name="bydr_dt_num_dian.png" path="/Assets/font/bydr2/" exported="true"/>
+    <image id="qw20am" name="bydr_dt_num_lv.png" path="/Assets/font/bydr2/" exported="true"/>
+    <image id="qw20an" name="bydr_dt_1num_0.png" path="/Assets/font/bydr/" exported="true"/>
+    <image id="qw20ao" name="bydr_dt_1num_1.png" path="/Assets/font/bydr/" exported="true"/>
+    <image id="qw20ap" name="bydr_dt_1num_2.png" path="/Assets/font/bydr/" exported="true"/>
+    <image id="qw20aq" name="bydr_dt_1num_3.png" path="/Assets/font/bydr/" exported="true"/>
+    <image id="qw20ar" name="bydr_dt_1num_4.png" path="/Assets/font/bydr/" exported="true"/>
+    <image id="qw20as" name="bydr_dt_1num_5.png" path="/Assets/font/bydr/" exported="true"/>
+    <image id="qw20at" name="bydr_dt_1num_6.png" path="/Assets/font/bydr/" exported="true"/>
+    <image id="qw20au" name="bydr_dt_1num_7.png" path="/Assets/font/bydr/" exported="true"/>
+    <image id="qw20av" name="bydr_dt_1num_8.png" path="/Assets/font/bydr/" exported="true"/>
+    <image id="qw20aw" name="bydr_dt_1num_9.png" path="/Assets/font/bydr/" exported="true"/>
+    <image id="qw20ax" name="bydr_dt_1num_dian.png" path="/Assets/font/bydr/" exported="true"/>
+    <font id="qw20ay" name="font_1.fnt" path="/Components/" exported="true"/>
+    <image id="qw20b0" name="bydr_dt_num_3.png" path="/Assets/font/bydr2/" exported="true"/>
+    <component id="qw20b1" name="EntryJackPot.xml" path="/Components/"/>
+    <image id="qw20b2" name="bg2.jpg" path="/Assets/"/>
+    <component id="ioo3b3" name="EntryAniBg.xml" path="/Components/"/>
+    <image id="hjshb4" name="bydr_dt_bg_1.png" path="/Assets/"/>
+    <image id="hjshb5" name="bydr_dt_bg_2.png" path="/Assets/"/>
+    <component id="sxcxb6" name="EntryHeadView.xml" path="/Components/"/>
+    <image id="sxcxb7" name="捕鱼主界面大厅效果图竖版.png" path="/Assets/"/>
+    <image id="sxcxb8" name="bydr_dt_2num_0.png" path="/Assets/font/bydr3/" exported="true"/>
+    <image id="sxcxb9" name="bydr_dt_2num_1.png" path="/Assets/font/bydr3/" exported="true"/>
+    <image id="sxcxba" name="bydr_dt_2num_2.png" path="/Assets/font/bydr3/" exported="true"/>
+    <image id="sxcxbb" name="bydr_dt_2num_3.png" path="/Assets/font/bydr3/" exported="true"/>
+    <image id="sxcxbc" name="bydr_dt_2num_4.png" path="/Assets/font/bydr3/" exported="true"/>
+    <image id="sxcxbd" name="bydr_dt_2num_5.png" path="/Assets/font/bydr3/" exported="true"/>
+    <image id="sxcxbe" name="bydr_dt_2num_6.png" path="/Assets/font/bydr3/" exported="true"/>
+    <image id="sxcxbf" name="bydr_dt_2num_7.png" path="/Assets/font/bydr3/" exported="true"/>
+    <image id="sxcxbg" name="bydr_dt_2num_8.png" path="/Assets/font/bydr3/" exported="true"/>
+    <image id="sxcxbh" name="bydr_dt_2num_9.png" path="/Assets/font/bydr3/" exported="true"/>
+    <image id="sxcxbi" name="bydr_dt_num_bfb.png" path="/Assets/font/bydr2/" exported="true"/>
+    <font id="sxcxbj" name="font_3.fnt" path="/Components/" exported="true"/>
+    <image id="sxcxbk" name="bydr_dt_bg_dengji.png" path="/Assets/"/>
+    <font id="sxcxbl" name="font_2.fnt" path="/Components/" exported="true"/>
+    <movieclip id="vv7ubm" name="goldAni_self.jta" path="/Ani/" exported="true" atlas="alone_npot"/>
+    <movieclip id="rhqcbn" name="goldAni_others.jta" path="/Ani/" exported="true" atlas="alone_npot"/>
+    <image id="uhynbo" name="haishatan.png" path="/Assets/"/>
+    <image id="uhynbp" name="tiankong.png" path="/Assets/"/>
+    <component id="uhynbq" name="bg.xml" path="/Components/"/>
+  </resources>
+  <publish name="entry" path="{publishRoot}\entry" genCode="true"/>
+</packageDescription>

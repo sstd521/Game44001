@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1136,640">
+  <displayList>
+    <graph id="n6_xd51" name="bgGraphic" xy="0,0" size="1136,640" type="rect" lineColor="#ffff0000" fillColor="#ff00ffff"/>
+    <component id="n15_mdi5" name="context" src="mdi56" fileName="component/ServerContext.xml" xy="126,0"/>
+    <component id="n12_tvb4" name="enter" src="9lp37" fileName="component/EnterView.xml" xy="455,544"/>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1556,66" pivot="0,0.5" anchor="true" opaque="false" mask="n1_n86c">
+  <displayList>
+    <graph id="n1_n86c" name="n1" xy="0,0" size="0,66" touchable="false" type="rect"/>
+    <movieclip id="n2_uhyn" name="n2" src="uhyn79a" fileName="Assets/Fish/catchAllLineAni.jta" xy="-13,0" blend="add"/>
+    <movieclip id="n3_uhyn" name="n3" src="uhyn79a" fileName="Assets/Fish/catchAllLineAni.jta" xy="247,0" blend="add"/>
+    <movieclip id="n4_uhyn" name="n4" src="uhyn79a" fileName="Assets/Fish/catchAllLineAni.jta" xy="506,0" blend="add"/>
+    <movieclip id="n5_uhyn" name="n5" src="uhyn79a" fileName="Assets/Fish/catchAllLineAni.jta" xy="766,0" blend="add"/>
+    <movieclip id="n6_uhyn" name="n6" src="uhyn79a" fileName="Assets/Fish/catchAllLineAni.jta" xy="1013,0" blend="add"/>
+    <movieclip id="n7_uhyn" name="n7" src="uhyn79a" fileName="Assets/Fish/catchAllLineAni.jta" xy="1273,0" blend="add"/>
+  </displayList>
+</component>

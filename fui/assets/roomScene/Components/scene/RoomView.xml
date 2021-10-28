@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <component id="n0_9lp3" name="bg" src="9lp39" fileName="Components/scene/BackgroundView.xml" xy="0,0" touchable="false"/>
+    <component id="n1_9lp3" name="content" src="n86c78k" fileName="Components/scene/ContentView.xml" xy="0,0" blend="none"/>
+  </displayList>
+</component>

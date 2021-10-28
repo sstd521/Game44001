@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2000,750">
+  <displayList>
+    <image id="n0_9lp3" name="bg1" src="9lp37" fileName="Assets/scene/game_bg_2.jpg" xy="666,0"/>
+    <image id="n9_mnwy" name="bg2" src="mnwy73n" fileName="Assets/scene/bg_you.jpg" xy="0,0"/>
+    <image id="n10_uhyn" name="n10" src="mnwy73r" fileName="Assets/scene/shitou_hou_zuo.png" xy="791,161"/>
+    <image id="n11_uhyn" name="n11" src="mnwy73q" fileName="Assets/scene/shitou_hou_you.png" xy="79,2"/>
+    <movieclip id="n14_uhyn" name="n14" src="q4y6718" fileName="Assets/scene/seaGrassAni_2.jta" xy="326,169"/>
+    <movieclip id="n15_uhyn" name="n15" src="q4y6718" fileName="Assets/scene/seaGrassAni_2.jta" xy="1050,183"/>
+  </displayList>
+</component>

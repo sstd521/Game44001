@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImage="ui://5xl6v9kdqw20ab" designImageAlpha="0">
+  <controller name="c1" exported="true" pages="0,横,1,竖" selected="0">
+    <action type="change_page" fromPage="0" toPage="1" objectId="n3_tg88" controller="c1" targetPage="1"/>
+    <action type="change_page" fromPage="1" toPage="0" objectId="n3_tg88" controller="c1" targetPage="0"/>
+    <action type="change_page" fromPage="0" toPage="1" objectId="n4_tg88" controller="c1" targetPage="1"/>
+    <action type="change_page" fromPage="1" toPage="0" objectId="n4_tg88" controller="c1" targetPage="0"/>
+  </controller>
+  <displayList>
+    <image id="n13_qw20" name="bg2" src="qw20b2" fileName="Assets/bg2.jpg" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <component id="n16_uhyn" name="bg" src="uhynbq" fileName="Components/bg.xml" xy="0,0"/>
+    <component id="n15_ioo3" name="bgAniBox" src="ioo3b3" fileName="Components/EntryAniBg.xml" xy="0,0"/>
+    <component id="n3_tg88" name="infoview" src="tg8892" fileName="Components/InfoView.xml" xy="0,0" controller="c1,0"/>
+    <component id="n4_tg88" name="menu" src="tg8894" fileName="Components/MenuView.xml" xy="1228,5" controller="c1,0"/>
+    <list id="n11_qw20" name="context" xy="109,179" size="1115,466" layout="flow_hz" overflow="scroll" scroll="horizontal" vAlign="middle" autoClearItems="true">
+      <item url="ui://5xl6v9kdtg8891" name="cj" controllers="c1,0"/>
+      <item url="ui://5xl6v9kdtg8891" name="zj" controllers="c1,1"/>
+      <item url="ui://5xl6v9kdtg8891" name="gj" controllers="c1,2"/>
+    </list>
+  </displayList>
+</component>

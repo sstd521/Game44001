@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="338,138" opaque="false">
+  <controller name="c1" pages="0,bottom,1,top" selected="0">
+    <action type="change_page" fromPage="0" toPage="1" objectId="n8_glv2" controller="c1" targetPage="1"/>
+    <action type="change_page" fromPage="1" toPage="0" objectId="n8_glv2" controller="c1" targetPage="0"/>
+  </controller>
+  <displayList>
+    <loader id="n5_9lp3" name="batteryLoader" xy="0,54" size="338,84" touchable="false" url="ui://0lwk28v89lp3c" align="center" vAlign="middle">
+      <gearXY controller="c1" pages="0,1" values="0,54|0,103"/>
+      <gearSize controller="c1" pages="1" values="338,84,1,-1" default="338,84,1,1"/>
+    </loader>
+    <component id="n9_glv2" name="batteryLvAddBtn" src="glv2w" fileName="Components/scene/batteryLvBtn.xml" xy="246,90">
+      <gearXY controller="c1" pages="0,1" values="246,90|248,18"/>
+      <gearSize controller="c1" pages="1" values="88,50,1,-1" default="88,50,1,1"/>
+    </component>
+    <component id="n10_glv2" name="batteryLvSubBtn" src="glv2w" fileName="Components/scene/batteryLvBtn.xml" xy="4,90">
+      <gearXY controller="c1" pages="0,1" values="4,90|8,18"/>
+      <gearSize controller="c1" pages="1" values="88,50,1,-1" default="88,50,1,1"/>
+      <Button icon="ui://0lwk28v8glv2t"/>
+    </component>
+    <component id="n0_9lp3" name="gun" src="n86c77j" fileName="Components/battery/gun.xml" xy="117,8" pivot="0.5,1" size="102,113" touchable="false">
+      <gearXY controller="c1" pages="0,1" values="117,8|118,-78"/>
+    </component>
+    <image id="n15_mnwy" name="n15" src="mnwy737" fileName="Assets/battery/brdr_ycjm_bg_paok.png" xy="132,102">
+      <gearXY controller="c1" pages="0,1" values="132,102|131,17"/>
+    </image>
+    <text id="n14_mnwy" name="gunLvTxt" xy="133,104" size="88,40" scale="0.8,0.8" font="ui://0lwk28v8mnwy736" fontSize="12" align="center" vAlign="middle" leading="0" letterSpacing="-14" autoSize="none" text="">
+      <gearXY controller="c1" pages="0,1" values="133,104|134,19"/>
+    </text>
+  </displayList>
+</component>

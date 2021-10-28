@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="0lwk28v8" jpegQuality="80" compressPNG="true" hasFavorites="true">
+  <resources>
+    <component id="9lp30" name="NormalFish.xml" path="/Components/Fish/" exported="true"/>
+    <movieclip id="9lp31" name="fish_1_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="9lp32" name="fish_2_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="9lp33" name="fish_3_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="9lp34" name="fish_4_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="9lp35" name="fish_5_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="9lp36" name="fish_6_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <image id="9lp37" name="game_bg_2.jpg" path="/Assets/scene/" exported="true" duplicatePadding="true"/>
+    <component id="9lp38" name="RoomView.xml" path="/Components/scene/" exported="true"/>
+    <component id="9lp39" name="BackgroundView.xml" path="/Components/scene/"/>
+    <component id="9lp3a" name="FishContent.xml" path="/Components/scene/" exported="true"/>
+    <image id="9lp3c" name="battery1.png" path="/Assets/battery/gun/" exported="true"/>
+    <component id="9lp3e" name="Bullet.xml" path="/Components/bullet/" exported="true"/>
+    <image id="9lp3f" name="fish_bullet_1.png" path="/Assets/bullet/" exported="true"/>
+    <component id="9lp3g" name="BulletView.xml" path="/Components/scene/" exported="true"/>
+    <component id="9lp3h" name="BatteryView.xml" path="/Components/scene/" exported="true"/>
+    <movieclip id="9lp3i" name="fish_7_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="9lp3j" name="fish_8_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="9lp3k" name="fish_9_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <component id="cyonl" name="net.xml" path="/Components/net/" exported="true"/>
+    <image id="cyonm" name="brdr_ycjm_icon_wang_zhong.png" path="/Assets/net/" exported="true"/>
+    <component id="glv2o" name="RoomTipsView.xml" path="/Components/scene/"/>
+    <movieclip id="glv2p" name="FishBoomAni.jta" path="/Assets/scene/" exported="true" atlas="alone_npot"/>
+    <image id="glv2t" name="sub.png" path="/Assets/scene/" exported="true"/>
+    <image id="glv2u" name="add.png" path="/Assets/scene/" exported="true"/>
+    <component id="glv2w" name="batteryLvBtn.xml" path="/Components/scene/"/>
+    <component id="glv2x" name="PlayerInfoView.xml" path="/Components/scene/"/>
+    <image id="glv2y" name="fish_frame.png" path="/Assets/scene/" exported="true"/>
+    <image id="glv2z" name="fish_game_ui_waiting.png" path="/Assets/scene/" exported="true"/>
+    <image id="kz7e10" name="fish_icon_lock.png" path="/Assets/scene/" exported="true"/>
+    <component id="kz7e11" name="lockBtn.xml" path="/Components/scene/"/>
+    <image id="kz7e12" name="fish_icon_rage_none.png" path="/Assets/scene/" exported="true" favorite="true"/>
+    <component id="kz7e13" name="unLockBtn.xml" path="/Components/scene/"/>
+    <movieclip id="ix0816" name="fish_1_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="ix0817" name="fish_2_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="ix0818" name="fish_3_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="ix0819" name="fish_4_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="q4y6717" name="seaGrassAni_1.jta" path="/Assets/scene/" exported="true" atlas="alone_npot"/>
+    <movieclip id="q4y6718" name="seaGrassAni_2.jta" path="/Assets/scene/" exported="true" atlas="alone_npot"/>
+    <image id="q4y6719" name="aimSign.png" path="/Assets/battery/" exported="true"/>
+    <image id="q4y671a" name="aimLine.png" path="/Assets/battery/" exported="true"/>
+    <component id="q4y671b" name="AimLineView.xml" path="/Components/battery/" exported="true"/>
+    <image id="d7af71c" name="unLock.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71d" name="unAuto.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71e" name="lock.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71f" name="auto.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71g" name="huntListTips.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71h" name="selectTips.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71i" name="loadConfig.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71j" name="btnBg.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71k" name="selectAll.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71l" name="reselect.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71n" name="selectFrame.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71o" name="close.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71p" name="changeAuto.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71q" name="startHunt.png" path="/Assets/battery/" exported="true"/>
+    <image id="d7af71r" name="cancelAuto.png" path="/Assets/battery/" exported="true"/>
+    <component id="d7af722" name="AutoHuntingView.xml" path="/Components/set/" exported="true"/>
+    <image id="d7af723" name="panel.png" path="/Assets/battery/" exported="true" scale="9grid" scale9grid="291,172,582,344"/>
+    <image id="d7af725" name="38.png" path="/Assets/battery/" exported="true"/>
+    <component id="d7af726" name="AutoFireFishItem.xml" path="/Components/set/" exported="true"/>
+    <image id="d7af72b" name="checked.png" path="/Assets/battery/" exported="true"/>
+    <component id="d7af72c" name="loadConfigBtn.xml" path="/Components/set/"/>
+    <image id="d7af72g" name="hunting.png" path="/Assets/battery/" exported="true"/>
+    <component id="d7af72i" name="changeConfigBtn.xml" path="/Components/set/"/>
+    <component id="rzeh72j" name="huntingFishItem.xml" path="/Components/set/" exported="true"/>
+    <movieclip id="rzeh72k" name="fish_10_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="rzeh72l" name="fish_11_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="rzeh72m" name="fish_12_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="rzeh72o" name="fish_14_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="rzeh72p" name="fish_15_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="rzeh72r" name="fish_22_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <image id="mnwy72s" name="bydr_dt_icon_jinbi.png" path="/Assets/scene/" exported="true"/>
+    <image id="mnwy72t" name="渔场效果图.png" path="/Assets/scene/"/>
+    <image id="mnwy72u" name="battery2.png" path="/Assets/battery/gun/" exported="true"/>
+    <image id="mnwy72v" name="brdr_ycjm_num_0.png" path="/Assets/battery/Font/gunLvFont/" exported="true"/>
+    <image id="mnwy72w" name="brdr_ycjm_num_1.png" path="/Assets/battery/Font/gunLvFont/" exported="true"/>
+    <image id="mnwy72x" name="brdr_ycjm_num_2.png" path="/Assets/battery/Font/gunLvFont/" exported="true"/>
+    <image id="mnwy72y" name="brdr_ycjm_num_3.png" path="/Assets/battery/Font/gunLvFont/" exported="true"/>
+    <image id="mnwy72z" name="brdr_ycjm_num_4.png" path="/Assets/battery/Font/gunLvFont/" exported="true"/>
+    <image id="mnwy730" name="brdr_ycjm_num_5.png" path="/Assets/battery/Font/gunLvFont/" exported="true"/>
+    <image id="mnwy731" name="brdr_ycjm_num_6.png" path="/Assets/battery/Font/gunLvFont/" exported="true"/>
+    <image id="mnwy732" name="brdr_ycjm_num_7.png" path="/Assets/battery/Font/gunLvFont/" exported="true"/>
+    <image id="mnwy733" name="brdr_ycjm_num_8.png" path="/Assets/battery/Font/gunLvFont/" exported="true"/>
+    <image id="mnwy734" name="brdr_ycjm_num_9.png" path="/Assets/battery/Font/gunLvFont/" exported="true"/>
+    <image id="mnwy735" name="brdr_ycjm_num_dian.png" path="/Assets/battery/Font/gunLvFont/" exported="true"/>
+    <font id="mnwy736" name="GunLvFont.fnt" path="/Components/battery/" exported="true"/>
+    <image id="mnwy737" name="brdr_ycjm_bg_paok.png" path="/Assets/battery/" exported="true"/>
+    <component id="mnwy738" name="PlayerGunView.xml" path="/Components/scene/"/>
+    <image id="mnwy739" name="bydr_dt_num_0.png" path="/Assets/battery/Font/playerCiubFont/" exported="true"/>
+    <image id="mnwy73a" name="bydr_dt_num_1.png" path="/Assets/battery/Font/playerCiubFont/" exported="true"/>
+    <image id="mnwy73b" name="bydr_dt_num_2.png" path="/Assets/battery/Font/playerCiubFont/" exported="true"/>
+    <image id="mnwy73c" name="bydr_dt_num_3.png" path="/Assets/battery/Font/playerCiubFont/" exported="true"/>
+    <image id="mnwy73d" name="bydr_dt_num_4.png" path="/Assets/battery/Font/playerCiubFont/" exported="true"/>
+    <image id="mnwy73e" name="bydr_dt_num_5.png" path="/Assets/battery/Font/playerCiubFont/" exported="true"/>
+    <image id="mnwy73f" name="bydr_dt_num_6.png" path="/Assets/battery/Font/playerCiubFont/" exported="true"/>
+    <image id="mnwy73g" name="bydr_dt_num_7.png" path="/Assets/battery/Font/playerCiubFont/" exported="true"/>
+    <image id="mnwy73h" name="bydr_dt_num_8.png" path="/Assets/battery/Font/playerCiubFont/" exported="true"/>
+    <image id="mnwy73i" name="bydr_dt_num_9.png" path="/Assets/battery/Font/playerCiubFont/" exported="true"/>
+    <image id="mnwy73j" name="bydr_dt_num_dian.png" path="/Assets/battery/Font/playerCiubFont/" exported="true"/>
+    <font id="mnwy73k" name="PlayerCoinFont.fnt" path="/Components/battery/" exported="true"/>
+    <image id="mnwy73n" name="bg_you.jpg" path="/Assets/scene/" exported="true" duplicatePadding="true"/>
+    <image id="mnwy73o" name="shanhu_qian_you.png" path="/Assets/scene/" exported="true" duplicatePadding="true"/>
+    <image id="mnwy73p" name="shanhu_qian_zuo.png" path="/Assets/scene/" exported="true" duplicatePadding="true"/>
+    <image id="mnwy73q" name="shitou_hou_you.png" path="/Assets/scene/" exported="true" duplicatePadding="true"/>
+    <image id="mnwy73r" name="shitou_hou_zuo.png" path="/Assets/scene/" exported="true" duplicatePadding="true"/>
+    <component id="mnwy73s" name="LoopBackgroundView_1.xml" path="/Components/scene/"/>
+    <image id="poad73t" name="withhdraw.png" path="/Assets/scene/" exported="true"/>
+    <image id="poad73u" name="expand.png" path="/Assets/scene/" exported="true"/>
+    <image id="poad73v" name="room_help.png" path="/Assets/scene/" exported="true"/>
+    <image id="poad73w" name="room_report.png" path="/Assets/scene/" exported="true"/>
+    <image id="poad73x" name="room_return.png" path="/Assets/scene/" exported="true"/>
+    <image id="poad73y" name="room_set.png" path="/Assets/scene/" exported="true"/>
+    <component id="poad73z" name="menuBtn.xml" path="/Components/scene/"/>
+    <image id="poad740" name="brdr_ycjm_bg_celan.png" path="/Assets/scene/"/>
+    <component id="poad741" name="menuView.xml" path="/Components/scene/"/>
+    <component id="poad742" name="settingBtn.xml" path="/Components/scene/" exported="true"/>
+    <component id="poad743" name="menuBtnListView.xml" path="/Components/scene/"/>
+    <image id="818g744" name="fish_bullet_2.png" path="/Assets/bullet/" exported="true"/>
+    <image id="818g745" name="fish_bullet_3.png" path="/Assets/bullet/" exported="true"/>
+    <movieclip id="v27g746" name="fish_5_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="v27g747" name="fish_6_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="v27g748" name="fish_7_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="v27g749" name="fish_8_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="v27g74a" name="fish_9_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="czni74b" name="fish_10_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="czni74c" name="fish_11_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="czni74d" name="fish_20_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="czni74e" name="fish_20_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="czni74f" name="fish_23_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <image id="n8sw74i" name="自动捕鱼界面.png" path="/Assets/battery/"/>
+    <image id="n8sw74k" name="bydr_help_bg_1.png" path="/Assets/battery/" exported="true"/>
+    <image id="n8sw74l" name="bydr_zdby_bg_yuk.png" path="/Assets/battery/" exported="true"/>
+    <component id="n8sw74m" name="closeBtn.xml" path="/Components/set/"/>
+    <image id="n8sw75i" name="bydr_zdby_text_jiazhi.png" path="/Assets/scene/"/>
+    <image id="n8sw75j" name="bydr_zdby_text_shuliang.png" path="/Assets/scene/"/>
+    <image id="n8sw75k" name="bydr_zdby_text_zongj.png" path="/Assets/scene/"/>
+    <image id="n8sw75l" name="bydr_help_1num_0.png" path="/Assets/scene/Font/autoHuntingFont/" exported="true"/>
+    <image id="n8sw75m" name="bydr_help_1num_1.png" path="/Assets/scene/Font/autoHuntingFont/" exported="true"/>
+    <image id="n8sw75n" name="bydr_help_1num_2.png" path="/Assets/scene/Font/autoHuntingFont/" exported="true"/>
+    <image id="n8sw75o" name="bydr_help_1num_3.png" path="/Assets/scene/Font/autoHuntingFont/" exported="true"/>
+    <image id="n8sw75p" name="bydr_help_1num_4.png" path="/Assets/scene/Font/autoHuntingFont/" exported="true"/>
+    <image id="n8sw75q" name="bydr_help_1num_5.png" path="/Assets/scene/Font/autoHuntingFont/" exported="true"/>
+    <image id="n8sw75r" name="bydr_help_1num_6.png" path="/Assets/scene/Font/autoHuntingFont/" exported="true"/>
+    <image id="n8sw75s" name="bydr_help_1num_7.png" path="/Assets/scene/Font/autoHuntingFont/" exported="true"/>
+    <image id="n8sw75t" name="bydr_help_1num_8.png" path="/Assets/scene/Font/autoHuntingFont/" exported="true"/>
+    <image id="n8sw75u" name="bydr_help_1num_9.png" path="/Assets/scene/Font/autoHuntingFont/" exported="true"/>
+    <image id="n8sw75v" name="bydr_help_1num_dian.png" path="/Assets/scene/Font/autoHuntingFont/" exported="true"/>
+    <font id="n8sw75w" name="autoHuntingFont.fnt" path="/Components/set/" exported="true"/>
+    <component id="n8sw75x" name="selectBtn.xml" path="/Components/set/"/>
+    <movieclip id="vmmd767" name="fish_13_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="vmmd768" name="fish_16_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="vmmd769" name="fish_17_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="vmmd76a" name="fish_18_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="vmmd76b" name="fish_19_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <movieclip id="vmmd76c" name="fish_12_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="vmmd76d" name="fish_13_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="vmmd76e" name="fish_14_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="vmmd76f" name="fish_15_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="vmmd76g" name="fish_16_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="vmmd76h" name="fish_17_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="vmmd76i" name="fish_18_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <movieclip id="vmmd76j" name="fish_19_dead.jta" path="/Assets/Fish/dead/" exported="true" atlas="alone_npot"/>
+    <image id="vmmd76m" name="guide.png" path="/Assets/scene/" exported="true"/>
+    <component id="vmmd76n" name="GuideView.xml" path="/Components/scene/" exported="true"/>
+    <movieclip id="vmmd76o" name="fish_21_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <component id="adx676t" name="AutoHuntTipsView.xml" path="/Components/set/" exported="true"/>
+    <image id="adx676u" name="bydr_tips_btn_qued.png" path="/Assets/battery/" exported="true"/>
+    <image id="adx676v" name="bydr_tips_btn_quex.png" path="/Assets/battery/" exported="true"/>
+    <image id="adx676w" name="bydr_tips_text_nzzzdby.png" path="/Assets/battery/" exported="true"/>
+    <image id="adx676x" name="bydr_tips_text_tishi.png" path="/Assets/battery/" exported="true"/>
+    <component id="adx676y" name="autoHuntSelectBtn.xml" path="/Components/set/"/>
+    <movieclip id="n86c773" name="jackPot.jta" path="/Assets/Fish/" exported="true" atlas="alone_npot"/>
+    <image id="n86c774" name="catchAll.png" path="/Assets/Fish/" exported="true"/>
+    <component id="n86c77e" name="TriStarFish.xml" path="/Components/Fish/" exported="true"/>
+    <component id="n86c77f" name="FourFish.xml" path="/Components/Fish/" exported="true"/>
+    <movieclip id="n86c77g" name="gun1.jta" path="/Assets/battery/gun/" exported="true" atlas="alone_npot"/>
+    <movieclip id="n86c77h" name="gun2.jta" path="/Assets/battery/gun/" exported="true" atlas="alone_npot"/>
+    <movieclip id="n86c77i" name="gun3.jta" path="/Assets/battery/gun/" exported="true" atlas="alone_npot"/>
+    <component id="n86c77j" name="gun.xml" path="/Components/battery/"/>
+    <movieclip id="n86c77k" name="gun1Ani.jta" path="/Assets/battery/gun/" exported="true" atlas="alone_npot"/>
+    <movieclip id="n86c77l" name="gun2Ani.jta" path="/Assets/battery/gun/" exported="true" atlas="alone_npot"/>
+    <movieclip id="n86c77m" name="gun3Ani.jta" path="/Assets/battery/gun/" exported="true" atlas="alone_npot"/>
+    <image id="n86c77n" name="brdr_ycjm_2num_9.png" path="/Assets/scene/Font/othersGoldFont/" exported="true"/>
+    <image id="n86c77o" name="brdr_ycjm_2num_7.png" path="/Assets/scene/Font/othersGoldFont/" exported="true"/>
+    <image id="n86c77p" name="brdr_ycjm_2num_8.png" path="/Assets/scene/Font/othersGoldFont/" exported="true"/>
+    <image id="n86c77q" name="brdr_ycjm_2num_6.png" path="/Assets/scene/Font/othersGoldFont/" exported="true"/>
+    <image id="n86c77r" name="brdr_ycjm_2num_5.png" path="/Assets/scene/Font/othersGoldFont/" exported="true"/>
+    <image id="n86c77s" name="brdr_ycjm_2num_4.png" path="/Assets/scene/Font/othersGoldFont/" exported="true"/>
+    <image id="n86c77t" name="brdr_ycjm_2num_3.png" path="/Assets/scene/Font/othersGoldFont/" exported="true"/>
+    <image id="n86c77u" name="brdr_ycjm_2num_2.png" path="/Assets/scene/Font/othersGoldFont/" exported="true"/>
+    <image id="n86c77v" name="brdr_ycjm_2num_1.png" path="/Assets/scene/Font/othersGoldFont/" exported="true"/>
+    <image id="n86c77w" name="brdr_ycjm_2num_0.png" path="/Assets/scene/Font/othersGoldFont/" exported="true"/>
+    <image id="n86c77x" name="brdr_ycjm_2num_dian.png" path="/Assets/scene/Font/othersGoldFont/" exported="true"/>
+    <image id="n86c77y" name="brdr_ycjm_2num_jia.png" path="/Assets/scene/Font/othersGoldFont/" exported="true"/>
+    <image id="n86c77z" name="brdr_ycjm_1num_dian.png" path="/Assets/scene/Font/selfGoldFont/" exported="true"/>
+    <image id="n86c780" name="brdr_ycjm_1num_6.png" path="/Assets/scene/Font/selfGoldFont/" exported="true"/>
+    <image id="n86c781" name="brdr_ycjm_1num_2.png" path="/Assets/scene/Font/selfGoldFont/" exported="true"/>
+    <image id="n86c782" name="brdr_ycjm_1num_7.png" path="/Assets/scene/Font/selfGoldFont/" exported="true"/>
+    <image id="n86c783" name="brdr_ycjm_1num_3.png" path="/Assets/scene/Font/selfGoldFont/" exported="true"/>
+    <image id="n86c784" name="brdr_ycjm_1num_jia.png" path="/Assets/scene/Font/selfGoldFont/" exported="true"/>
+    <image id="n86c785" name="brdr_ycjm_1num_9.png" path="/Assets/scene/Font/selfGoldFont/" exported="true"/>
+    <image id="n86c786" name="brdr_ycjm_1num_8.png" path="/Assets/scene/Font/selfGoldFont/" exported="true"/>
+    <image id="n86c787" name="brdr_ycjm_1num_5.png" path="/Assets/scene/Font/selfGoldFont/" exported="true"/>
+    <image id="n86c788" name="brdr_ycjm_1num_4.png" path="/Assets/scene/Font/selfGoldFont/" exported="true"/>
+    <image id="n86c789" name="brdr_ycjm_1num_1.png" path="/Assets/scene/Font/selfGoldFont/" exported="true"/>
+    <image id="n86c78a" name="brdr_ycjm_1num_0.png" path="/Assets/scene/Font/selfGoldFont/" exported="true"/>
+    <font id="n86c78b" name="selfGoldFont.fnt" path="/Components/scene/" exported="true"/>
+    <font id="n86c78c" name="othersGoldFont.fnt" path="/Components/scene/" exported="true"/>
+    <component id="n86c78d" name="winGoldNumView.xml" path="/Components/scene/" exported="true"/>
+    <movieclip id="n86c78h" name="catchAllCircleAni.jta" path="/Assets/Fish/" exported="true" atlas="alone_npot"/>
+    <component id="n86c78i" name="catchAllLineView.xml" path="/Components/Fish/" exported="true"/>
+    <image id="n86c78j" name="tips1.png" path="/Assets/scene/" exported="true"/>
+    <component id="n86c78k" name="ContentView.xml" path="/Components/scene/"/>
+    <component id="n86c78l" name="testSlider_grip.xml" path="/Components/scene/"/>
+    <image id="lyas78n" name="tips2.png" path="/Assets/scene/" exported="true"/>
+    <movieclip id="nyu978p" name="fish_23_swining.jta" path="/Assets/Fish/swining/" exported="true" atlas="alone_npot"/>
+    <component id="nyu978q" name="content.xml" path="/Components/Fish/"/>
+    <image id="nyu978r" name="brdr_ycjm_icon_meirenyu.png" path="/Assets/Fish/deadTips/" exported="true"/>
+    <image id="nyu978s" name="brdr_ycjm_icon_jinsha.png" path="/Assets/Fish/deadTips/" exported="true"/>
+    <image id="nyu978t" name="brdr_ycjm_bg_piaodai.png" path="/Assets/Fish/deadTips/" exported="true"/>
+    <image id="nyu978u" name="brdr_ycjm_bg_piaodai1.png" path="/Assets/Fish/deadTips/" exported="true"/>
+    <image id="nyu978v" name="brdr_ycjm_text_dsy.png" path="/Assets/Fish/deadTips/" exported="true"/>
+    <image id="nyu978w" name="brdr_ycjm_text_jjy.png" path="/Assets/Fish/deadTips/" exported="true"/>
+    <image id="nyu978x" name="brdr_ycjm_bg_dajiang.png" path="/Assets/Fish/deadTips/" exported="true"/>
+    <image id="nyu978y" name="brdr_ycjm_text_dsx.png" path="/Assets/Fish/deadTips/" exported="true"/>
+    <image id="nyu978z" name="brdr_ycjm_text_ywdj.png" path="/Assets/Fish/deadTips/" exported="true"/>
+    <image id="nyu9790" name="brdr_ycjm_bg_jiangjiyu.png" path="/Assets/Fish/deadTips/" exported="true"/>
+    <component id="nyu9791" name="FishDeadTipsView.xml" path="/Components/Fish/" exported="true"/>
+    <image id="nyu9792" name="brdr_ycjm_icon_wang_di.png" path="/Assets/net/" exported="true"/>
+    <image id="nyu9793" name="brdr_ycjm_icon_wang_gao.png" path="/Assets/net/" exported="true"/>
+    <movieclip id="nyu9794" name="netAni.jta" path="/Assets/net/" atlas="alone_npot"/>
+    <movieclip id="rgdn795" name="fullScreenBoomAni.jta" path="/Assets/Fish/" exported="true" atlas="alone_npot"/>
+    <movieclip id="rgdn796" name="fullScreenFrozenAni.jta" path="/Assets/Fish/" exported="true" atlas="alone_npot"/>
+    <component id="uhyn797" name="waveAniView.xml" path="/Components/scene/" exported="true"/>
+    <component id="uhyn798" name="LoopBackgroundView_2.xml" path="/Components/scene/"/>
+    <component id="uhyn799" name="FullScreenGoldAniView.xml" path="/Components/scene/" exported="true"/>
+    <movieclip id="uhyn79a" name="catchAllLineAni.jta" path="/Assets/Fish/" exported="true" atlas="alone_npot"/>
+    <movieclip id="uhyn79b" name="triFourBg.jta" path="/Assets/Fish/" exported="true" atlas="alone_npot"/>
+    <image id="uhyn79c" name="four.png" path="/Assets/Fish/" exported="true"/>
+    <image id="uhyn79d" name="triStar.png" path="/Assets/Fish/" exported="true"/>
+    <component id="uhyn79g" name="AttackModelAniView.xml" path="/Components/scene/"/>
+    <image id="uhyn79h" name="brdr_ycjm_btn_suodgj_an.png" path="/Assets/battery/" exported="true"/>
+    <image id="uhyn79i" name="brdr_ycjm_btn_zidgj_an.png" path="/Assets/battery/" exported="true"/>
+    <image id="uhyn79j" name="brdr_ycjm_icon_jinbi.png" path="/Assets/player/"/>
+    <component id="uhyn79k" name="GoldListItemView.xml" path="/Components/scene/" exported="true"/>
+    <component id="uhyn79l" name="ShowGoldListView.xml" path="/Components/scene/" exported="true"/>
+    <movieclip id="h8iq79m" name="fishSpecalAni_20.jta" path="/Assets/Fish/" exported="true" atlas="alone_npot"/>
+    <movieclip id="m1sv79n" name="fishSpecalAni_18&amp;19.jta" path="/Assets/Fish/" exported="true" atlas="alone_npot"/>
+    <image id="tb5z79o" name="tips3.png" path="/Assets/scene/" exported="true"/>
+    <component id="tb5z79p" name="TipsView.xml" path="/Components/scene/" exported="true"/>
+    <image id="tb5z79q" name="brdr_ycjm_icon_jinbi.png" path="/Assets/scene/" exported="true"/>
+  </resources>
+  <publish name="roomScene" path="{publishRoot}\roomScene" genCode="true">
+    <atlas name="默认" index="0"/>
+    <atlas name="card" index="1"/>
+  </publish>
+</packageDescription>

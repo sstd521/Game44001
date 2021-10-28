@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="276,50" extention="Button" bgColor="#999999">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <graph id="n2_xd51" name="n2" xy="0,0" size="276,50" type="rect" fillColor="#ff999999">
+      <gearColor controller="button" pages="1,2,3" values="#999999|#999999|#999999" default="#ffffff" tween="true"/>
+    </graph>
+    <text id="n0_xd51" name="title" xy="0,6" size="275,39" fontSize="35" color="#ff0000" align="center" vAlign="middle" autoSize="height" text="呵呵哒"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

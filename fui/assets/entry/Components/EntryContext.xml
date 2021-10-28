@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" designImage="ui://5xl6v9kdrkgx8p" designImageAlpha="3">
+  <displayList>
+    <image id="n4_qw20" name="n4" src="tg888q" fileName="Assets/bg.png" xy="0,0"/>
+    <list id="n5_qw20" name="list" xy="109,179" size="1115,392" layout="flow_hz" overflow="scroll" scroll="horizontal" vAlign="middle" autoClearItems="true">
+      <item url="ui://5xl6v9kdtg8891" controllers="c1,0"/>
+      <item url="ui://5xl6v9kdtg8891"/>
+      <item url="ui://5xl6v9kdtg8891"/>
+    </list>
+  </displayList>
+</component>

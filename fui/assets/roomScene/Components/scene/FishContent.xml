@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <graph id="n0_818g" name="n0" xy="0,0" size="107,63" visible="false" touchable="false" type="rect" fillColor="#59ffffff"/>
+    <loader id="n1_vv7u" name="fullScreenFrozenAniLoader" xy="0,0" size="1334,750" locked="true" alpha="0.8" touchable="false" blend="none" align="center" vAlign="middle" fill="scaleFree" playing="false" frame="4"/>
+    <loader id="n2_vv7u" name="fullScreenBoomAniLoader" xy="0,0" size="1334,750" locked="true" touchable="false" align="center" vAlign="middle" fill="scaleFree"/>
+    <component id="n3_vv7u" name="fullScreenGoldAniView" src="uhyn799" fileName="Components/scene/FullScreenGoldAniView.xml" xy="0,0"/>
+  </displayList>
+</component>

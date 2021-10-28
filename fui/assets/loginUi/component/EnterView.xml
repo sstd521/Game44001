@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="225,68">
+  <displayList>
+    <component id="n12_tvb4" name="startBtn" src="8eoc3" fileName="component/EnterBtn.xml" xy="0,0"/>
+    <text id="n13_9lp3" name="token_txt" xy="-50,-59" size="243,51" fontSize="35" autoSize="none" text="token:"/>
+    <text id="n14_9lp3" name="token_input" xy="65,-58" size="304,51" input="true" fontSize="35" autoSize="none" singleLine="true" text="123456"/>
+  </displayList>
+</component>

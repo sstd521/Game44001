@@ -1,0 +1,205 @@
+{
+    /**
+	* 应用名称
+	*/
+    "applicationName": "Untiled App",
+    /**
+	* 工程类型，可用类型：rigger, serice, plugin
+	*/
+    "projectType": "application",
+    /**
+	* 发布服务时，服务源码所在根目录
+	*/
+    "srcRoot": "./src",
+    "libPathes": [
+        "./libs/**/*.ts"
+    ],
+    "outRoot": "./dist",
+    /**
+	* 构建项目时，服务执行文件的目标位置
+	*/
+    "binRoot": "./bin",
+    // 自定义服务的根路径
+    "customServicesRoot": [
+        "./src/services",
+        "./src/gameServices"
+    ],
+        "services": [
+        [
+            {
+                "fullName": "rigger.service.ExtendXMLHttpBasedConfigService",
+                "src": "git:git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.ExtendXMLHttpBasedConfigService.git",
+                "version": "1.0.0",
+                "desc": "扩展后的基于XMLHhttp的配置服务"
+            },
+            {
+                "fullName": "rigger.service.AssetsService",
+                "src": "git:git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.AssetsService.git",
+                "version": "1.0.0",
+                "plugins": [
+                    {
+                        "fullName": "rigger.service.LayaAssetsVersionPlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.LayaAssetsVersionPlugin.git",
+                        "version": "2.0.0",
+                        "desc": "LAYA"
+                    },
+                    {
+                        //layaLoaderPlugin
+                        "fullName": "rigger.service.LayaLoaderPlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.LayaLoaderPlugin.git",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            // 通用的网络服务
+            {
+                "fullName": "rigger.service.NetworkService",
+                "src": "git:git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.NetworkService.git",
+                "version": "1.0.0",
+                "plugins": [
+                    {
+                        //layaNetworkPlugin
+                        "fullName": "rigger.service.LayaNetworkChannelPlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.LayaNetworkChannelPlugin.git",
+                        "version": "1.0.0"
+                    },
+                    {
+                        //protobufferEncoderPlugin
+                        "fullName": "rigger.service.ProtobufferEncoderPlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.ProtobufferEncoderPlugin.git",
+                        "version": "1.0.0"
+                    },
+                    {
+                        //router
+                        "fullName": "NetserviceSignalRouingPlugin"
+                    },
+                    {
+                        "fullName": "ProtocolCodeAssemblerPlugin"
+                    }
+                ],
+                "channels": [
+                    {
+                        "channelName": "GameChannel"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "fullName": "rigger.service.AssetsPackageService",
+                "src": "git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.AssetsPackageService.git",
+                "version": "1.0.0",
+                "desc": "通用的资源管理服务",
+                "plugins": [
+                    {
+                        //fairyGUIPackagePlugin
+                        "fullName": "rigger.service.FairyGUIPackagePlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.FairyGUIPackagePlugin.git",
+                        "version": "1.0.1"
+                    },
+                    {
+                        //packageUrlPlugin
+                        "fullName": "rigger.service.PackageUrlPlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.PackageUrlPlugin.git",
+                        "version": "1.0.1"
+                    }
+                ],
+                // 资源包组配置
+                "packageGroups": {
+                    "init": [
+                        "loading"
+                    ],
+                    "preloading": [
+                        "commonUI",
+                        // "gmCmd",
+                        "loginUi",
+                        "entry",
+                        "roomScene",
+                        "briefUI"
+                    ]
+                }
+            },
+            // 时间服务
+            {
+                "fullName": "rigger.service.TimeService",
+                "src": "git:git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.TimeService.git",
+                "version": "1.0.0",
+                "plugins": [
+                    {
+                        //layaLocalTimePlugin
+                        "fullName": "rigger.service.LayaLocalTimePlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.LayaLocalTimePlugin.git",
+                        "version": "1.0.0"
+                    },
+                    {
+                        //LayaTimerPlugin
+                        "fullName": "rigger.service.LayaTimerPlugin",
+                        "src": "git@git.jinpin.com:riggerPublish/plugins/rigger.service.LayaTimerPlugin.git",
+                        "version": "1.0.0"
+                    }
+                ]
+            }
+        ],
+        [
+            // 心跳服务
+            {
+                "fullName": "rigger.service.HeartBeatService",
+                "src": "git:git@git.jinpin.com:riggerPublish/releasedRiggerServices/rigger.service.HeartBeatService.git",
+                "version": "1.0.0",
+                // 心跳间隔
+                "duration": 9000,
+                // 允许超时的次数
+                "timeoutNum": 3,
+                "plugins": [
+                    {
+                        "fullName": "HeartBeatProtocolPlugin"
+                    }
+                ]
+            }
+        ],
+        [
+            // 连接服务
+            {
+                "fullName": "ConnectService",
+                "src": "",
+                "dest": ""
+            }
+        ],
+        [
+            // 游戏的主逻辑服务
+            {
+                "fullName": "MainLogicService",
+                "src": "git@git.jinpin.com:riggerPublish/releasedRiggerServices/MainLogicService.git",
+                "version": "1.0.0",
+                "plugins":[
+                    {
+                        "fullName": "LayaEnginePlugin"
+                    }
+                ],
+                "entrance": "startArgs:entrance",
+                "defaultFont": "黑体",
+                "width": 1334,
+                "height": 750,
+                // public static startOption:any = "Laya.WebGL";
+                "scaleMode": "full",
+                "screenMode": "horizontal",
+                "backgroundColor": "#FFFFFF",
+                "resVersionAvailable": false,
+                "renderMode": 2,
+                "webGL": true,
+                "frameRate": "fast"
+            }
+        ]
+    ],
+    "packages": [
+        {
+            "fullName": "",
+            "src": "",
+            "dist": ""
+        }
+    ],
+    // 游戏ID
+    "gameId": 4001,
+    "defaultVolumn": 5,
+    "testToken": ""
+}

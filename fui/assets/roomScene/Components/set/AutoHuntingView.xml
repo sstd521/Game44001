@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1164,685" designImage="ui://0lwk28v8n8sw74i" designImageOffsetX="-92" designImageOffsetY="-28" designImageAlpha="0">
+  <controller name="c1" pages="0,config,1,hunting" selected="0"/>
+  <displayList>
+    <image id="n1_d7af" name="panel" src="d7af723" fileName="Assets/battery/panel.png" xy="0,0"/>
+    <image id="n2_d7af" name="n2" src="d7af725" fileName="Assets/battery/38.png" xy="494,23"/>
+    <image id="n22_n8sw" name="n22" src="n8sw74k" fileName="Assets/battery/bydr_help_bg_1.png" xy="21,163" size="1123,433"/>
+    <image id="n4_d7af" name="n4" src="d7af71h" fileName="Assets/battery/selectTips.png" xy="39,116" group="n11_d7af"/>
+    <list id="n5_d7af" name="fishList" xy="33,184" size="1099,396" group="n11_d7af" layout="flow_hz" overflow="scroll" margin="0,0,12,0" lineGap="13" colGap="15" defaultItem="ui://0lwk28v8d7af726" autoClearItems="true">
+      <item icon="ui://0lwk28v8n8sw759"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_d7af" name="loadConfigBtn" src="d7af72c" fileName="Components/set/loadConfigBtn.xml" xy="958,110" group="n11_d7af"/>
+    <component id="n8_d7af" name="selectAllBtn" src="n8sw75x" fileName="Components/set/selectBtn.xml" xy="43,601" group="n11_d7af"/>
+    <component id="n9_d7af" name="reselectBtn" src="n8sw75x" fileName="Components/set/selectBtn.xml" xy="240,601" group="n11_d7af">
+      <Button icon="ui://0lwk28v8d7af71l"/>
+    </component>
+    <component id="n10_d7af" name="startHuntBtn" src="n8sw75x" fileName="Components/set/selectBtn.xml" xy="933,600" group="n11_d7af">
+      <Button icon="ui://0lwk28v8d7af71q"/>
+    </component>
+    <group id="n11_d7af" name="configView" xy="33,110" size="1099,554" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n13_d7af" name="n13" src="d7af71g" fileName="Assets/battery/huntListTips.png" xy="46,117" group="n20_rzeh"/>
+    <component id="n18_d7af" name="changeAutoBtn" src="d7af72i" fileName="Components/set/changeConfigBtn.xml" xy="259,604" group="n20_rzeh"/>
+    <component id="n16_d7af" name="cancelAutoBtn" src="d7af72i" fileName="Components/set/changeConfigBtn.xml" xy="676,604" group="n20_rzeh">
+      <Button icon="ui://0lwk28v8d7af71r"/>
+    </component>
+    <list id="n19_rzeh" name="huntingList" xy="38,180" size="1086,399" group="n20_rzeh" layout="flow_hz" overflow="scroll" margin="0,0,9,0" lineGap="15" colGap="54" defaultItem="ui://0lwk28v8rzeh72j" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n20_rzeh" name="huntingView" xy="38,117" size="1086,550" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n23_n8sw" name="closeBtn" src="n8sw74m" fileName="Components/set/closeBtn.xml" xy="1087,19"/>
+  </displayList>
+</component>

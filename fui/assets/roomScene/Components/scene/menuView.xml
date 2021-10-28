@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="214,314" opaque="false">
+  <controller name="c1" pages="0,expand,1,withdraw" selected="0">
+    <action type="play_transition" fromPage="0" toPage="1" transition="expand"/>
+    <action type="play_transition" fromPage="1" toPage="0" transition="takeBack"/>
+  </controller>
+  <displayList>
+    <component id="n2_poad" name="menuBtn" src="poad73z" fileName="Components/scene/menuBtn.xml" xy="86,111">
+      <gearIcon controller="c1" pages="0,1" values="ui://0lwk28v8poad73u|ui://0lwk28v8poad73t"/>
+      <Button icon="ui://0lwk28v8poad73u"/>
+    </component>
+    <component id="n4_poad" name="menuBtnListView" src="poad743" fileName="Components/scene/menuBtnListView.xml" xy="0,0" scale="0.7,0.7"/>
+  </displayList>
+  <transition name="expand">
+    <item time="0" type="XY" target="n2_poad" tween="true" startValue="86,111" endValue="173,111" duration="12" ease="Linear"/>
+    <item time="0" type="XY" target="n4_poad" tween="true" startValue="0,0" endValue="86,0" duration="12" ease="Linear"/>
+  </transition>
+  <transition name="takeBack">
+    <item time="0" type="XY" target="n2_poad" tween="true" startValue="173,111" endValue="86,111" duration="12" ease="Linear"/>
+    <item time="0" type="XY" target="n4_poad" tween="true" startValue="86,0" endValue="0,0" duration="12" ease="Linear"/>
+  </transition>
+</component>

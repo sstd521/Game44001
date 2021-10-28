@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1164,685" designImage="ui://75q2l4musxcx56" designImageAlpha="0">
+  <displayList>
+    <image id="n0_sxcx" name="bg" src="sxcx51" fileName="Assets/info/brdr_grxx_bg_1.png" xy="0,0"/>
+    <image id="n1_sxcx" name="n1" src="sxcx55" fileName="Assets/info/brdr_grxx_text_grxx.png" xy="458,22"/>
+    <image id="n2_sxcx" name="n2" src="sxcx52" fileName="Assets/info/brdr_grxx_bg_xian.png" xy="11,105"/>
+    <image id="n3_sxcx" name="tip" src="sxcx54" fileName="Assets/info/brdr_grxx_btn_help1.png" xy="812,286" visible="false"/>
+    <component id="n4_sxcx" name="tipBtn" src="sxcx58" fileName="components/tipBtn.xml" xy="746,320"/>
+    <image id="n5_sxcx" name="n5" src="sxcx59" fileName="Assets/bydr_dt_bg_touxk.png" xy="320,155" group="n10_sxcx"/>
+    <image id="n7_sxcx" name="exeRect" src="sxcx5a" fileName="Assets/bydr_dt_bg_jindut.png" xy="438,230" group="n10_sxcx"/>
+    <loader id="n22_sxcx" name="headImg" xy="334,166" size="96,96" group="n10_sxcx" url="ui://75q2l4musxcx5e" autoSize="true"/>
+    <image id="n21_sxcx" name="exeModule" src="sxcx5a" fileName="Assets/bydr_dt_bg_jindut.png" xy="438,259" group="n10_sxcx" visible="false"/>
+    <text id="n6_sxcx" name="idText" xy="445,198" size="257,35" group="n10_sxcx" scale="0.8,0.8" font="Microsoft YaHei" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="金品"/>
+    <group id="n10_sxcx" name="n10" xy="320,155" size="441,132" advanced="true"/>
+    <image id="n11_sxcx" name="n11" src="sxcx5c" fileName="Assets/bydr_dt_bg_jinbik.png" xy="331,315" group="n14_sxcx"/>
+    <image id="n13_sxcx" name="n13" src="sxcx5d" fileName="Assets/bydr_dt_icon_jinbi.png" xy="321,309" group="n14_sxcx"/>
+    <text id="n12_sxcx" name="goldText" xy="398,327" size="257,35" group="n14_sxcx" font="ui://5xl6v9kdsxcxbl" fontSize="12" align="center" autoSize="none" text="123456789.00"/>
+    <group id="n14_sxcx" name="n14" xy="321,309" size="380,74" advanced="true"/>
+    <text id="n15_sxcx" name="n15" xy="321,464" size="157,54" font="Microsoft YaHei" fontSize="38" color="#ffffff" bold="true" text="经验值："/>
+    <text id="n16_sxcx" name="n16" xy="318,538" size="162,54" font="Microsoft YaHei" fontSize="38" color="#ffffff" bold="true" text="用户ID："/>
+    <text id="n17_sxcx" name="exeNum" xy="468,466" size="212,54" font="Microsoft YaHei" fontSize="38" color="#ffffff" bold="true" text="123456789"/>
+    <text id="n18_sxcx" name="idNum" xy="468,537" size="304,54" font="Microsoft YaHei" fontSize="38" color="#ffffff" vAlign="middle" autoSize="none" bold="true" text="123456789124"/>
+    <text id="n8_sxcx" name="lvText" xy="778,224" size="67,31" font="ui://5xl6v9kdsxcxbl" fontSize="12" align="center" text="v1"/>
+    <text id="n20_sxcx" name="exeText" xy="456,230" size="273,43" font="ui://5xl6v9kdsxcxbl" fontSize="29" color="#ffffff" align="center" autoSize="none" bold="true" text="50%"/>
+  </displayList>
+</component>

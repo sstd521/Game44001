@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="75,75">
+  <displayList>
+    <image id="n7_nt5j" name="n7" src="ekuc8" fileName="赌博.png" xy="0,0"/>
+    <text id="n8_nt5j" name="n8" xy="-10,75" size="113,39" fontSize="30" color="#ffffff" text="GM命令"/>
+  </displayList>
+</component>

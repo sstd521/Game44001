@@ -1,0 +1,34 @@
+stages:
+  - deploy
+variables:
+  ip_dst: 119.23.238.216
+  dir_dst: "jptech_volume/appData/nginx/app/jp_game/Public/items"
+before_script:
+  - chcp 850
+  - git config --global core.autocrlf false
+  - PATH=C:\Program Files\nodejs\;C:\cygwin64\bin\;D:\program\cwRsync\bin\;C:\Users\Administrator\AppData\Roaming\npm\;%PATH%
+  - git config --global user.name "ops_git:GITLAB_USER_NAME"
+  - git config --global user.email "ops_git:GITLAB_USER_EMAIL"
+  - echo "start at" %date%--%time% "for" %CI_REPOSITORY_URL% "in" %cd%
+pack:
+  stage: deploy
+  only:
+    - master
+  script:
+    - cmd /c "gulp pack"
+    - if exist dist/ (chmod -R 777 dist/)
+    - if exist dist/ (cmd /c "D:\app\bin\unix2dos-dist.bat")
+    - rsync.exe -rzvc --delete dist/%CI_REPOSITORY_URL:~-8,4%/ rsync://%ip_dst%:52326/data/%dir_dst%/%CI_REPOSITORY_URL:~-8,4%/
+    - rsync.exe -rzvc dist/%CI_REPOSITORY_URL:~-8,4%/bin/ rsync://%ip_dst%:52326/data/%dir_dst%/%CI_REPOSITORY_URL:~-8,4%/
+    - D:\program\Python\python.exe D:\data\devops\devops.py
+    - rm -rf dist/
+    - rm -rf ../bin/ && mv bin/ ../
+    - git checkout master
+    - git pull
+    - rm -rf ./bin/ && mv ../bin/ ./
+    - git add ./bin/
+    - git commit -m "[ci skip]auto add bin\* with job ops_git:CI_JOB_ID" ./bin/
+    - git push %CI_REPOSITORY_URL:~0,7%ops_git:jpkj_ops_git%CI_REPOSITORY_URL:~43,-1%t
+    - echo "end at" %date%--%time% "for" %CI_REPOSITORY_URL% "in" %cd%
+  tags:
+    - windows

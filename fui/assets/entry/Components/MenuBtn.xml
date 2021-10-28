@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="155,155" pivot="0.5,0.5" extention="Button" designImage="ui://5xl6v9kdqw20ab" designImageOffsetX="-863" designImageAlpha="49">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" exported="true" pages="0,设置,1,报表,2,大厅,3,排行,4,帮助" selected="0"/>
+  <displayList>
+    <loader id="n10_qw20" name="n10" xy="0,0" size="155,155" url="ui://5xl6v9kdqw20a8" align="center" vAlign="middle" autoSize="true">
+      <gearIcon controller="c1" pages="1,2,3,4" values="ui://5xl6v9kdqw20a5|ui://5xl6v9kdqw20a6|ui://5xl6v9kdqw20a7|ui://5xl6v9kdqw20a4" default="ui://5xl6v9kdqw20a8"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="256,107">
+  <controller name="c1" pages="0,cancel,1,select" selected="0"/>
+  <displayList>
+    <image id="n0_d7af" name="bg" src="n8sw74j" fileName="Assets/staticFish/bydr_zdby_bg_yuk1.png" pkg="75q2l4mu" xy="0,0"/>
+    <image id="n6_n8sw" name="n6" src="n8sw74l" fileName="Assets/battery/bydr_zdby_bg_yuk.png" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <loader id="n2_d7af" name="fishLoader" xy="17,20" pivot="0.5,0.5" size="142,66" touchable="false" url="ui://0lwk28v89lp31" align="center" vAlign="middle" fill="scale" shrinkOnly="true" playing="false"/>
+    <image id="n3_d7af" name="n3" src="d7af71n" fileName="Assets/battery/selectFrame.png" xy="180,6"/>
+    <text id="n4_d7af" name="fishRatioTxt" xy="144,65" size="105,31" font="ui://75q2l4mud7af729" fontSize="12" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="112-3"/>
+    <image id="n5_d7af" name="checked" src="d7af72b" fileName="Assets/battery/checked.png" xy="186,11">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <loader id="n7_n86c" name="nameLoader" xy="149,65" size="81,34" visible="false" align="center" vAlign="middle"/>
+  </displayList>
+</component>

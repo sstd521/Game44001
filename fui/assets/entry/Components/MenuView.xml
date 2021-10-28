@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,567" opaque="false" designImage="ui://5xl6v9kdqw20ab" designImageAlpha="0">
+  <controller name="c1" exported="true" pages="0,横,1,竖" selected="0"/>
+  <displayList>
+    <list id="n17_tb5z" name="settingBtnList" xy="0,0" size="154,874" scale="0.65,0.65" lineGap="22" defaultItem="ui://5xl6v9kdtg8895">
+      <item controllers="c1,0"/>
+      <item controllers="c1,0"/>
+      <item controllers="c1,0"/>
+      <item controllers="c1,0"/>
+      <item controllers="c1,0"/>
+    </list>
+  </displayList>
+</component>

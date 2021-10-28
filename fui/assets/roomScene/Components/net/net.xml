@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="105,104" opaque="false">
+  <displayList>
+    <loader id="n0_cyon" name="n0" xy="0,0" pivot="0.5,0.5" size="105,104" touchable="false" url="ui://0lwk28v8nyu9793" align="center" vAlign="middle"/>
+    <movieclip id="n1_nyu9" name="n1" src="nyu9794" fileName="Assets/net/netAni.jta" xy="-203,-210"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n0_cyon" tween="true" startValue="0,0" endValue="1,1" duration="6" ease="Linear"/>
+  </transition>
+</component>

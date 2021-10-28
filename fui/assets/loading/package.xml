@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="g2ixeje8" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="e98g5" name="LoadingView.xml" path="/Components/" exported="true"/>
+    <image id="mtjpa" name="buyu_jindutiao.png" path="/Assets/"/>
+    <image id="mtjpb" name="buyu_jindutiao_man.png" path="/Assets/" scale="9grid" scale9grid="78,7,711,12"/>
+    <component id="mtjpe" name="LoadLogoBox.xml" path="/Components/"/>
+    <image id="mtjpf" name="bg.png" path="/Assets/"/>
+    <image id="lmpeh" name="bg2.png" path="/Assets/"/>
+    <component id="ccfym" name="LoadingContentView.xml" path="/Components/"/>
+    <sound id="w5i0d" name="lobbyBgm.mp3" path="/Assets/sound/" exported="true"/>
+    <sound id="w5i0e" name="roomBgm.mp3" path="/Assets/sound/" exported="true"/>
+    <movieclip id="w5i0o" name="fish_13_swining.jta" path="/Assets/" exported="true" atlas="alone_npot"/>
+    <component id="ny39p" name="DynamicLoadingView.xml" path="/Components/" exported="true"/>
+    <component id="ny39q" name="LoadBarView.xml" path="/Components/"/>
+    <component id="ny39r" name="barMaskView.xml" path="/Components/"/>
+    <sound id="uhyns" name="fishDead.mp3" path="/Assets/sound/" exported="true"/>
+    <sound id="uhynt" name="coinIn.mp3" path="/Assets/sound/" exported="true"/>
+    <sound id="uhynu" name="coinJump.mp3" path="/Assets/sound/" exported="true"/>
+    <sound id="uhynv" name="19_20fishIn.mp3" path="/Assets/sound/" exported="true"/>
+    <sound id="uhynw" name="catchAll.mp3" path="/Assets/sound/" exported="true"/>
+    <sound id="uhynx" name="fishTide.mp3" path="/Assets/sound/" exported="true"/>
+    <sound id="uhyny" name="boomFish.mp3" path="/Assets/sound/" exported="true"/>
+    <sound id="uhynz" name="bullet.mp3" path="/Assets/sound/" exported="true"/>
+    <sound id="uhyn10" name="iceFish.mp3" path="/Assets/sound/" exported="true"/>
+  </resources>
+  <publish name="loading" path="{publishRoot}\loading" genCode="true"/>
+</packageDescription>

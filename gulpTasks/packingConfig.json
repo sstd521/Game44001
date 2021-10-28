@@ -1,0 +1,50 @@
+{
+    "libPath":[
+        "bin/libs/laya/laya.core.js",
+        "bin/libs/laya/laya.webgl.js",
+        "bin/libs/laya/laya.ani.js",
+        "bin/libs/laya/laya.filter.js",
+        "bin/libs/laya/laya.html.js",      
+     
+        "bin/libs/laya/laya.ui.js",
+
+        "bin/libs/clipboard/*.js",
+        "bin/libs/fairygui/*.js",
+        "bin/libs/polyfill/*.js",
+        "bin/libs/rawinflate/*.js",
+        
+        "bin/libs/reflect/*.js",
+        "bin/libs/riggerIOC/*.js",
+        "bin/libs/riggerLayaSA/*.js",
+        "bin/libs/riggerLayout/*.js",
+        "bin/rigger/*.js"
+        ],
+
+    "resPath":[
+        "bin/preloadingPrompt.js",
+        "bin/res-ver-*/**/*",
+        "bin/*.png"
+    ],
+
+    "srcPath":[
+        "src/**/*.ts"
+    ],
+
+    "dtsPath":[
+        "libs/common/**/*.d.ts",
+        "libs/decorator/**/*.d.ts",
+        "libs/fairygui/**/*.d.ts",
+        "libs/laya/**/*.d.ts",
+        "libs/protobuf/**/*.d.ts"
+    ],
+
+    "indexPath":"bin/indexRelease.html",
+
+    "riggerConfigPath": "bin/rigger/riggerConfigs/RiggerConfig.json",
+
+    "manifestPath": "bin/manifest.json",
+
+    "entrance":"",
+
+    "verPre":"res-ver-"
+}

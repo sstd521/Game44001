@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="219,174" designImage="ui://5xl6v9kdqw20ab">
+  <displayList>
+    <image id="n0_qw20" name="n0" src="qw20a0" fileName="Assets/bydr_dt_bg_jiangchi.png" xy="0,0"/>
+    <text id="n1_qw20" name="jkText" xy="29,92" size="168,27" font="ui://5xl6v9kdqw20ay" fontSize="12" align="center" autoSize="none" text="400000"/>
+  </displayList>
+</component>

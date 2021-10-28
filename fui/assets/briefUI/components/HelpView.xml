@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1140,660" designImage="ui://75q2l4mufc6p2m">
+  <controller name="c1" exported="true" pages="0,鱼类介绍,1,操作介绍,2,鱼泡介绍" selected="1"/>
+  <displayList>
+    <image id="n14_sxcx" name="n14" src="sxcx51" fileName="Assets/info/brdr_grxx_bg_1.png" xy="-6,-9"/>
+    <image id="n9_fc6p" name="n9" src="fc6p1m" fileName="Assets/help/bydr_help_bg_1.png" xy="8,171"/>
+    <image id="n7_fc6p" name="n7" src="fc6p2j" fileName="Assets/help/bydr_help_text_bangz.png" xy="512,11"/>
+    <image id="n10_fc6p" name="n10" src="fc6p2o" fileName="Assets/help/brdr_grxx_bg_xian.png" xy="5,92" size="1130,2"/>
+    <loader id="n2_qw20" name="top2" xy="754,97" size="351,76" url="ui://75q2l4mufc6p1s" autoSize="true">
+      <gearIcon controller="c1" pages="0,1,2" values="ui://75q2l4mufc6p1s|ui://75q2l4mufc6p1s|ui://75q2l4mufc6p1r"/>
+    </loader>
+    <loader id="n3_qw20" name="top1" xy="397,97" size="351,76" url="ui://75q2l4mufc6p1t" autoSize="true">
+      <gearIcon controller="c1" pages="0,1,2" values="ui://75q2l4mufc6p1u|ui://75q2l4mufc6p1t|ui://75q2l4mufc6p1u"/>
+    </loader>
+    <loader id="n4_qw20" name="top0" xy="41,97" size="351,76" url="ui://75q2l4mufc6p1w" autoSize="true">
+      <gearIcon controller="c1" pages="0,1,2" values="ui://75q2l4mufc6p1v|ui://75q2l4mufc6p1w|ui://75q2l4mufc6p1w"/>
+    </loader>
+    <list id="n5_qw20" name="list" xy="18,189" size="1102,453" layout="row" overflow="scroll" scroll="horizontal" colGap="50" align="center" autoClearItems="true">
+      <gearDisplay controller="c1" pages="2"/>
+      <item url="ui://75q2l4muqw2011" controllers="c1,0"/>
+      <item url="ui://75q2l4muqw2011" controllers="c1,0"/>
+      <item url="ui://75q2l4muqw2011"/>
+    </list>
+    <component id="n12_fc6p" name="n12" src="fc6p2p" fileName="components/HelpYuPanel.xml" xy="24,187" size="1089,457" blend="none">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n13_fc6p" name="n13" src="fc6p2r" fileName="components/HelpPlayPanel.xml" xy="34,200">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+</component>

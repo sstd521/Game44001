@@ -1,0 +1,50 @@
+{
+  "name": "rigger",
+  "version": "1.0.0",
+  "description": "我是代码的搬运工",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rigger"
+  ],
+  "author": "Saint Evol",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "colors": "^1.1.2",
+    "del": "^3.0.0",
+    "fix-path": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-awaitable-tasks": "^1.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-filter": "^5.1.0",
+    "gulp-git": "^2.5.2",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^8.1.1",
+    "gulp-rev-collector": "^1.3.1",
+    "gulp-rm": "^1.0.5",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.1.7",
+    "gulp-typescript": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-util": "^3.0.8",
+    "gulp-zip": "^4.1.0",
+    "merge-stream": "^1.0.1",
+    "protobufjs": "^6.8.8",
+    "require-dir": "^1.0.0",
+    "silly-datetime": "^0.1.2",
+    "terser": "^3.14.1",
+    "through": "^2.3.8",
+    "tsify": "^4.0.1",
+    "typescript": "^2.9.2",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "natives": "^1.1.6"
+  }
+}

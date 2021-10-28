@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50">
+  <displayList>
+    <loader id="n0_n86c" name="buffLoader" xy="-92,-89" pivot="0.5,0.5" size="236,231" locked="true" touchable="false" align="center" vAlign="middle"/>
+    <movieclip id="n7_uhyn" name="n7" src="uhyn79b" fileName="Assets/Fish/four.jta" xy="-80,-80" locked="true"/>
+    <loader id="n1_n86c" name="fishLoader" xy="25,25" pivot="0.5,0.5" anchor="true" size="50,50" locked="true" url="ui://0lwk28v8uhyn79d" align="center" vAlign="middle"/>
+    <loader id="n2_n86c" name="aimSignLoader" xy="0,0" pivot="0.5,0.5" size="50,50" locked="true" scale="0.7,0.7" touchable="false" align="center" vAlign="middle"/>
+    <loader id="n3_n86c" name="triStarFish1Loader" xy="-88,-68" pivot="0.5,0.5" size="101,87" scale="-1,1" touchable="false" align="center" vAlign="middle" fill="scaleNoBorder"/>
+    <loader id="n4_n86c" name="triStarFish2Loader" xy="33,-68" pivot="0.5,0.5" size="101,87" scale="-1,1" touchable="false" align="center" vAlign="middle" fill="scaleNoBorder"/>
+    <loader id="n5_n86c" name="triStarFish3Loader" xy="-27,36" pivot="0.5,0.5" size="101,87" scale="-1,1" touchable="false" align="center" vAlign="middle" fill="scaleNoBorder"/>
+  </displayList>
+</component>

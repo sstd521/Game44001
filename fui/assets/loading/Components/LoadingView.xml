@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" initName="bgGraph">
+  <displayList>
+    <image id="n8_mtjp" name="bgl" src="mtjpf" fileName="Assets/bg.png" xy="0,0"/>
+    <component id="n9_mtjp" name="content" src="ccfym" fileName="Components/LoadingContentView.xml" xy="0,0"/>
+  </displayList>
+</component>

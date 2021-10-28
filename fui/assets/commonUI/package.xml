@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="y2ep490w" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="t6ch0" name="MaskView.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="commonUI" path="{publishRoot}\commonUI" genCode="true"/>
+</packageDescription>

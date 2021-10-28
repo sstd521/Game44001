@@ -1,0 +1,12 @@
+{
+    "pluginPath": [
+        "src/hunter/servicePlugins/HeartBeatProtocolPlugin/HeartBeatProtocolPlugin.ts",
+        "src/hunter/servicePlugins/protocolCodeAssemblerPlugin/protocolCodeAssemblerPlugin.ts",
+        "src/hunter/servicePlugins/protocolRoutingPlugin/NetserviceSignalRouingPlugin.ts",
+        "src/hunter/servicePlugins/layaEnginePlugin/LayaEnginePlugin.ts"
+    ],
+
+    "servicePath": [
+        "src/hunter/gameServices/connectService/ConnectService.ts"
+    ]
+}

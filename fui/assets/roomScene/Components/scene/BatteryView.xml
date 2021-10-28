@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="439,91" opaque="false" designImage="ui://0lwk28v8mnwy72t" designImageOffsetX="-4" designImageOffsetY="-613" designImageAlpha="0" designImageLayer="1">
+  <controller name="c2" pages="0,show,1,hide" selected="0"/>
+  <controller name="c1" pages="0,left,1,right" selected="1"/>
+  <controller name="c3" pages="0,self,1,others" selected="1"/>
+  <displayList>
+    <component id="n5_9lp3" name="gunView" src="mnwy738" fileName="Components/scene/PlayerGunView.xml" xy="0,-19" group="n11_glv2" scale="0.8,0.8">
+      <gearXY controller="c1" pages="0,1" values="169,-19|0,-19"/>
+    </component>
+    <component id="n8_glv2" name="infoView" src="glv2x" fileName="Components/scene/PlayerInfoView.xml" xy="269,29" group="n11_glv2" scale="0.6,0.6" touchable="false" controller="c1,0">
+      <gearXY controller="c1" pages="0,1" values="0,29|269,29"/>
+    </component>
+    <component id="n15_uhyn" name="goldList" src="uhyn79l" fileName="Components/scene/ShowGoldListView.xml" xy="0,-109" group="n11_glv2" touchable="false">
+      <gearDisplay controller="c3" pages="0"/>
+    </component>
+    <group id="n11_glv2" name="n11" xy="0,-109" size="559,242" advanced="true">
+      <gearDisplay controller="c2" pages="0"/>
+    </group>
+    <image id="n12_glv2" name="n12" src="glv2z" fileName="Assets/scene/fish_game_ui_waiting.png" xy="138,18">
+      <gearDisplay controller="c2" pages="1"/>
+    </image>
+  </displayList>
+</component>

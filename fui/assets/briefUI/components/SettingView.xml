@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="724,432" designImage="ui://75q2l4mumaic4y">
+  <displayList>
+    <image id="n16_maic" name="n16" src="maic4q" fileName="Assets/setting/brdr_szjm_bg_1.png" xy="0,0"/>
+    <image id="n17_maic" name="n17" src="maic4v" fileName="Assets/setting/brdr_szjm_text_shez.png" xy="299,24"/>
+    <image id="n18_maic" name="n18" src="maic4w" fileName="Assets/setting/brdr_szjm_text_yinx.png" xy="101,291"/>
+    <image id="n19_maic" name="n19" src="maic4x" fileName="Assets/setting/brdr_szjm_text_yiny.png" xy="102,170"/>
+    <component id="n20_maic" name="music_slider" src="maic50" fileName="components/SettingSlide.xml" xy="263,168">
+      <Slider max="100"/>
+    </component>
+    <component id="n21_maic" name="sound_slider" src="maic50" fileName="components/SettingSlide.xml" xy="263,287">
+      <Slider value="100" max="100"/>
+    </component>
+  </displayList>
+</component>

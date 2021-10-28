@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="441,126" designImageOffsetX="-39" designImageOffsetY="-128">
+  <displayList>
+    <image id="n0_sxcx" name="n0" src="qw20a3" fileName="Assets/bydr_dt_bg_touxk.png" xy="0,0" group="n5_sxcx"/>
+    <image id="n2_sxcx" name="exeRect" src="qw20a2" fileName="Assets/bydr_dt_bg_jindut.png" xy="118,75" group="n5_sxcx"/>
+    <loader id="n6_sxcx" name="headImg" xy="15,12" size="96,96" group="n5_sxcx" url="ui://75q2l4musxcx5e" autoSize="true"/>
+    <image id="n7_sxcx" name="exeModule" src="qw20a2" fileName="Assets/bydr_dt_bg_jindut.png" xy="117,114" group="n5_sxcx" visible="false"/>
+    <image id="n8_sxcx" name="n8" src="sxcxbk" fileName="Assets/bydr_dt_bg_dengji.png" xy="403,71" group="n5_sxcx"/>
+    <text id="n9_sxcx" name="lvNum" xy="402,73" size="38,27" group="n5_sxcx" font="ui://5xl6v9kdsxcxbj" fontSize="38" color="#ffffff" align="center" autoSize="none" bold="true" text="0"/>
+    <text id="n1_sxcx" name="idText" xy="122,42" size="257,40" group="n5_sxcx" scale="0.8,0.8" font="Microsoft YaHei" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="jinpin1122"/>
+    <text id="n3_sxcx" name="persentText" xy="149,74" size="252,31" group="n5_sxcx" font="ui://5xl6v9kdsxcxbl" fontSize="12" align="center" autoSize="none" text="89%"/>
+    <group id="n5_sxcx" name="n5" xy="0,0" size="441,142" advanced="true"/>
+  </displayList>
+</component>

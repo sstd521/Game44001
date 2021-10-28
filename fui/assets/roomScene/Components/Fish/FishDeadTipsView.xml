@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="350,355" pivot="0.5,0.5">
+  <displayList>
+    <component id="n0_nyu9" name="content" src="nyu978q" fileName="Components/Fish/content.xml" xy="0,0" pivot="0.5,0.5" alpha="0"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n0_nyu9" value="1"/>
+    <item time="0" type="Scale" target="n0_nyu9" tween="true" startValue="1,1" endValue="1.3,1.3" duration="18"/>
+    <item time="18" type="Scale" target="n0_nyu9" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="30" type="Alpha" target="n0_nyu9" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
+</component>

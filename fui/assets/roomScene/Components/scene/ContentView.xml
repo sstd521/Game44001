@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <component id="n1_9lp3" name="fishView" src="9lp3a" fileName="Components/scene/FishContent.xml" xy="0,0" pivot="0.5,0.5"/>
+    <component id="n3_9lp3" name="bulletView" src="9lp3g" fileName="Components/scene/BulletView.xml" xy="0,0"/>
+    <component id="n6_glv2" name="tipsView" src="glv2o" fileName="Components/scene/RoomTipsView.xml" xy="0,0"/>
+  </displayList>
+</component>

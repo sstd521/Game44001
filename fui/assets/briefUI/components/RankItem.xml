@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1091,110" designImage="ui://75q2l4mufc6p3e" designImageOffsetX="-119" designImageOffsetY="-467" designImageAlpha="0">
+  <controller name="c1" exported="true" pages="0,前三,1,不是前三" selected="0"/>
+  <controller name="isMe" exported="true" pages="0,显示,1,不显示" selected="0"/>
+  <displayList>
+    <image id="n10_fc6p" name="n10" src="fc6p2s" fileName="Assets/rank/bydr_phb_bg_neirongk.png" xy="0,0"/>
+    <image id="n23_n6ya" name="n23" src="n6ya5h" fileName="Assets/rank/bydr_phb_bg_neirongk_gaol.png" xy="0,0">
+      <gearDisplay controller="isMe" pages="0"/>
+    </image>
+    <loader id="n11_fc6p" name="rankImg" xy="142,5" pivot="0.5,0.5" size="84,88" url="ui://75q2l4mufc6p30" autoSize="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <image id="n14_maic" name="n14" src="fc6p2t" fileName="Assets/rank/bydr_phb_bg_shuzik.png" xy="310,28" group="n19_maic"/>
+    <image id="n15_maic" name="n15" src="maic4o" fileName="Assets/rank/bydr_phb_bg_juesek.png" xy="263,11" group="n19_maic"/>
+    <loader id="n21_bxfm" name="headImg" xy="271,17" size="96,96" group="n19_maic" aspect="true" scale="0.7,0.7" url="ui://75q2l4musxcx5e" autoSize="true"/>
+    <text id="n3_qw20" name="name" xy="345,33" size="259,45" group="n19_maic" fontSize="36" color="#ffffff" align="center" autoSize="none" text="123456"/>
+    <group id="n19_maic" name="n19" xy="263,11" size="361,102" collapsed="true"/>
+    <image id="n16_maic" name="n16" src="fc6p2t" fileName="Assets/rank/bydr_phb_bg_shuzik.png" xy="721,26" group="n20_maic"/>
+    <image id="n17_maic" name="n17" src="maic4p" fileName="Assets/rank/bydr_dt_icon_jinbi.png" xy="696,19" group="n20_maic"/>
+    <text id="n4_qw20" name="goldNum" xy="769,31" size="253,45" group="n20_maic" fontSize="36" color="#ffffff" align="center" autoSize="none" text="123456.00"/>
+    <group id="n20_maic" name="n20" xy="695,19" size="339,74" collapsed="true"/>
+    <image id="n18_maic" name="numBg" src="fc6p2z" fileName="Assets/rank/bydr_phb_icon_rank0.png" xy="141,17">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n12_fc6p" name="rankNum" xy="149,26" size="65,42" font="ui://75q2l4mufc6p3h" fontSize="40" color="#ffffff" align="center" autoSize="none" text="4">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <image id="n22_n6ya" name="myIcon" src="n6ya5i" fileName="Assets/rank/bydr_phb_icon_jiantou.png" xy="78,21">
+      <gearDisplay controller="isMe" pages="0"/>
+    </image>
+  </displayList>
+</component>

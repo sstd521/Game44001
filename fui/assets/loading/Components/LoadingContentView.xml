@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <component id="n10_mtjp" name="barView" src="ny39q" fileName="Components/LoadBarView.xml" xy="221,632"/>
+    <component id="n11_ht6w" name="logoBox" src="mtjpe" fileName="Components/LoadLogoBox.xml" xy="443,128"/>
+  </displayList>
+</component>

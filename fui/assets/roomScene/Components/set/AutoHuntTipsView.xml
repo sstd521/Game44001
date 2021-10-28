@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="723,432" designImageOffsetX="-273" designImageOffsetY="-163" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <image id="n6_adx6" name="n6" src="d7af723" fileName="Assets/battery/panel.png" xy="0,-4" size="904,495" scale="0.8,0.88"/>
+    <image id="n1_adx6" name="n1" src="adx676w" fileName="Assets/battery/bydr_tips_text_nzzzdby.png" xy="133,195"/>
+    <image id="n2_adx6" name="n2" src="adx676x" fileName="Assets/battery/bydr_tips_text_tishi.png" xy="300,18"/>
+    <component id="n3_adx6" name="cancelBtn" src="adx676y" fileName="Components/set/autoHuntSelectBtn.xml" xy="127,303">
+      <Button icon="ui://0lwk28v8adx676v"/>
+    </component>
+    <component id="n4_adx6" name="enterBtn" src="adx676y" fileName="Components/set/autoHuntSelectBtn.xml" xy="440,303">
+      <Button icon="ui://0lwk28v8adx676u"/>
+    </component>
+    <component id="n7_adx6" name="closeBtn" src="n8sw74m" fileName="Components/set/closeBtn.xml" xy="650,18"/>
+  </displayList>
+</component>

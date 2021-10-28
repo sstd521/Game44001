@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es5",
+      "outFile": "./bin/js/game1.min.js",
+      "sourceMap": true,
+      "experimentalDecorators": true,
+      "lib":["dom", "es2015"]
+  
+    },
+    "exclude": [
+      "node_modules",
+      "dist",
+      "bin"
+    ]
+  }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="350,355">
+  <controller name="c1" pages="0,big,1,small,2,other" selected="2"/>
+  <displayList>
+    <loader id="n0_nyu9" name="bgLoader" xy="50,76" size="245,179" url="ui://0lwk28v8nyu9790" align="center" vAlign="middle" autoSize="true">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <gearXY controller="c1" pages="1,2" values="46,38|50,76" default="0,0"/>
+      <gearSize controller="c1" pages="0,1,2" values="350,355,1,1|350,355,0.72,0.72|245,179,1,1"/>
+      <gearIcon controller="c1" pages="2" values="ui://0lwk28v8nyu9790" default="ui://0lwk28v8nyu978x"/>
+    </loader>
+    <loader id="n2_nyu9" name="fishLoader" xy="54,55" size="323,323" scale="0.75,0.75" url="ui://0lwk28v8nyu978z" align="center" vAlign="middle">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <gearXY controller="c1" pages="0,1,2" values="53,43|9,4|54,55"/>
+      <gearSize controller="c1" pages="1,2" values="323,323,1,1|323,323,0.75,0.75" default="323,323,0.75,0.75"/>
+    </loader>
+    <loader id="n3_nyu9" name="coinBgLoader" xy="42,210" size="265,74" url="ui://0lwk28v8nyu978t" align="center" vAlign="middle" autoSize="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="1" values="89,194" default="42,210"/>
+      <gearIcon controller="c1" pages="1" values="ui://0lwk28v8nyu978u" default="ui://0lwk28v8nyu978t"/>
+    </loader>
+    <text id="n4_nyu9" name="coinTxt" xy="64,219" size="287,56" scale="0.75,0.75" font="ui://0lwk28v8n86c78b" fontSize="12" align="center" vAlign="middle" autoSize="none" text="8000&#xA;">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="1" values="101,203" default="64,219"/>
+      <gearSize controller="c1" pages="1" values="213,56,0.72,0.72" default="287,56,0.75,0.75"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="296,445" designImage="ui://75q2l4mufc6p2n">
+  <controller name="c1" exported="true" pages="0,低,1,中,2,高" selected="0"/>
+  <displayList>
+    <loader id="n5_fc6p" name="n5" xy="0,0" size="296,445" url="ui://75q2l4mufc6p1o" autoSize="true">
+      <gearIcon controller="c1" pages="0,1" values="ui://75q2l4mufc6p1o|ui://75q2l4mufc6p1n" default="ui://75q2l4mufc6p1p"/>
+    </loader>
+  </displayList>
+</component>

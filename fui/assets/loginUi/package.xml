@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="liobtiy9" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="8eoc3" name="EnterBtn.xml" path="/component/" exported="true"/>
+    <component id="8eoc4" name="ServerItemView.xml" path="/component/" exported="true"/>
+    <component id="8eoc5" name="ServerListView.xml" path="/component/" exported="true"/>
+    <component id="mdi56" name="ServerContext.xml" path="/component/"/>
+    <component id="9lp37" name="EnterView.xml" path="/component/"/>
+    <component id="glv28" name="DisconnectedView.xml" path="/component/" exported="true"/>
+    <image id="glv29" name="UI2.png" path="/Assets/"/>
+    <component id="glv2a" name="OkBtn.xml" path="/component/"/>
+    <image id="glv2b" name="确定按钮.png" path="/Assets/"/>
+    <image id="glv2c" name="文本.png" path="/Assets/"/>
+  </resources>
+  <publish name="loginUi" path="{publishRoot}\loginUi" genCode="true"/>
+</packageDescription>

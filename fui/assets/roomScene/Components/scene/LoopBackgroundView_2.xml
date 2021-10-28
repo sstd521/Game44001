@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2000,750">
+  <displayList>
+    <movieclip id="n14_poad" name="n14" src="q4y6717" fileName="Assets/scene/seaGrassAni_1.jta" xy="717,403"/>
+    <movieclip id="n15_poad" name="n15" src="q4y6717" fileName="Assets/scene/seaGrassAni_1.jta" xy="262,442"/>
+    <movieclip id="n16_poad" name="n16" src="q4y6717" fileName="Assets/scene/seaGrassAni_1.jta" xy="1212,354"/>
+    <image id="n17_uhyn" name="n17" src="mnwy73p" fileName="Assets/scene/shanhu_qian_zuo.png" xy="665,594"/>
+    <image id="n18_uhyn" name="n18" src="mnwy73o" fileName="Assets/scene/shanhu_qian_you.png" xy="0,586"/>
+  </displayList>
+</component>

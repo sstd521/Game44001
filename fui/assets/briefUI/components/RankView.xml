@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1144,660" designImage="ui://75q2l4mufc6p3e" designImageAlpha="0">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n15_sxcx" name="bg" src="sxcx51" fileName="Assets/info/brdr_grxx_bg_1.png" xy="-6,-6"/>
+    <image id="n13_fc6p" name="n13" src="fc6p1m" fileName="Assets/help/bydr_help_bg_1.png" xy="11,172"/>
+    <image id="n3_fc6p" name="n3" src="fc6p3d" fileName="Assets/rank/bydr_phb_text_paihangb.png" xy="481,15"/>
+    <image id="n4_fc6p" name="n4" src="fc6p2y" fileName="Assets/rank/bydr_phb_icon_jiangbei.png" xy="674,18"/>
+    <image id="n5_fc6p" name="n5" src="fc6p2y" fileName="Assets/rank/bydr_phb_icon_jiangbei.png" xy="469,18" scale="-1,1"/>
+    <image id="n6_fc6p" name="n6" src="fc6p2o" fileName="Assets/help/brdr_grxx_bg_xian.png" xy="4,93" size="1130,2"/>
+    <loader id="n10_fc6p" name="t1" xy="615,98" size="351,76" url="ui://75q2l4mufc6p2x" autoSize="true">
+      <gearIcon controller="c1" pages="1" values="ui://75q2l4mufc6p2w" default="ui://75q2l4mufc6p2x"/>
+    </loader>
+    <loader id="n12_fc6p" name="t0" xy="193,98" size="351,76" url="ui://75q2l4mufc6p2u" autoSize="true">
+      <gearIcon controller="c1" pages="0" values="ui://75q2l4mufc6p2u" default="ui://75q2l4mufc6p2v"/>
+    </loader>
+    <component id="n14_fc6p" name="listContentView" src="tb5z77j" fileName="components/rankListContentView.xml" xy="26,187"/>
+  </displayList>
+</component>

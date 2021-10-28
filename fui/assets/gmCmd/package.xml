@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="lnswovbz" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="8eoc0" name="按钮.png" path="/" exported="true"/>
+    <image id="8eoc1" name="通用框_中型.png" path="/"/>
+    <component id="8eoc2" name="GMCmdItemView.xml" path="/" exported="true"/>
+    <component id="8eoc3" name="GmView.xml" path="/" exported="true"/>
+    <component id="8eoc4" name="GmViewContent.xml" path="/" exported="true"/>
+    <component id="8eoc5" name="LongBtn.xml" path="/" exported="true"/>
+    <component id="8eoc7" name="GmBtn.xml" path="/" exported="true"/>
+    <image id="ekuc8" name="赌博.png" path="/"/>
+    <component id="ekuc9" name="GmCmdBtn.xml" path="/"/>
+  </resources>
+  <publish name="gmCmd" path="{publishRoot}\gmCmd" genCode="true"/>
+</packageDescription>

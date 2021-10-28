@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="121,447">
+  <displayList>
+    <image id="n4_poad" name="bg" src="poad740" fileName="Assets/scene/brdr_ycjm_bg_celan.png" xy="0,0"/>
+    <list id="n3_poad" name="menuBtnList" xy="9,13" size="103,419" overflow="hidden" lineGap="6" defaultItem="ui://0lwk28v8poad742" align="center" vAlign="middle">
+      <item icon="ui://0lwk28v8poad73y" name="setBtn"/>
+      <item icon="ui://0lwk28v8poad73v" name="helpBtn"/>
+      <item icon="ui://0lwk28v8poad73w" name="reportBtn"/>
+      <item icon="ui://0lwk28v8poad73x" name="returnBtn"/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="350,388" designImage="ui://5xl6v9kdqw20ab" designImageAlpha="48">
+  <controller name="c1" exported="true" pages="0,1,1,2,2,3" selected="0"/>
+  <displayList/>
+</component>

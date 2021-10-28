@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="879,23" mask="n13_ny39">
+  <displayList>
+    <image id="n12_ny39" name="bar" src="mtjpb" fileName="Assets/buyu_jindutiao_man.png" xy="0,0"/>
+    <image id="n13_ny39" name="mask" src="mtjpb" fileName="Assets/buyu_jindutiao_man.png" xy="0,0" size="0,23"/>
+  </displayList>
+</component>

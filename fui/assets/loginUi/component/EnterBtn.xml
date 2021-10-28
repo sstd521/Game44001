@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="225,68" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <graph id="n11_tvb4" name="n11" xy="0,0" size="225,68" type="rect" fillColor="#ff99ff00">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n12_tvb4" name="title" xy="1,14" size="224,39" fontSize="35" color="#cc0000" align="center" vAlign="middle" autoSize="none" text="Enter">
+      <gearColor controller="button" pages="1" values="#000000,#000000" default="#cc0000,#000000" tween="true"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

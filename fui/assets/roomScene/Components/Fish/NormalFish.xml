@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50" pivot="0.5,0.5" opaque="false">
+  <displayList>
+    <loader id="n2_vmmd" name="buffLoader" xy="-75,-74" pivot="0.5,0.5" size="200,200" touchable="false" align="center" vAlign="middle"/>
+    <loader id="n0_9lp3" name="fishLoader" xy="25,25" pivot="0.5,0.5" anchor="true" size="50,50" scale="-1,1" url="ui://0lwk28v8czni74d" align="center" vAlign="middle"/>
+    <loader id="n5_h8iq" name="specalAniLoader" xy="0,0" pivot="0.5,0.5" size="50,50" touchable="false" align="center" vAlign="middle" color="#defeff"/>
+    <loader id="n1_q4y6" name="aimSignLoader" xy="0,0" pivot="0.5,0.5" size="50,50" scale="0.7,0.7" touchable="false" blend="none" align="center" vAlign="middle"/>
+  </displayList>
+</component>

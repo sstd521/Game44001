@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="256,107">
+  <displayList>
+    <image id="n0_d7af" name="bg" src="n8sw74j" fileName="Assets/staticFish/bydr_zdby_bg_yuk1.png" xy="0,0"/>
+    <loader id="n2_d7af" name="fishLoader" xy="12,11" pivot="0.5,0.5" size="151,68" touchable="false" align="center" vAlign="middle" fill="scale" shrinkOnly="true" playing="false"/>
+    <text id="n4_d7af" name="fishRatioTxt" xy="147,65" size="105,31" font="ui://75q2l4mud7af729" fontSize="12" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="12-3456."/>
+    <loader id="n7_n86c" name="nameLoader" xy="149,65" size="81,34" visible="false" align="center" vAlign="middle"/>
+  </displayList>
+</component>

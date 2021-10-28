@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="401,51" extention="Button">
+  <displayList>
+    <image id="n54_soiw" name="n54" src="8eoc0" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="n55_soiw" name="title" xy="4,5" size="392,40" font="黑体" fontSize="36" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="开始旋转">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>

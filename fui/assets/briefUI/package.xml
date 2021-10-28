@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="75q2l4mu" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="qw201" name="bg.png" path="/Assets/" scale="9grid" scale9grid="52,27,104,54"/>
+    <image id="qw202" name="close.png" path="/Assets/"/>
+    <component id="qw20c" name="SettingView.xml" path="/components/" exported="true"/>
+    <component id="qw20d" name="CloseBtn.xml" path="/components/"/>
+    <component id="qw20e" name="TipContext.xml" path="/components/" exported="true"/>
+    <component id="qw20t" name="RankItem.xml" path="/components/" exported="true"/>
+    <component id="qw20u" name="HelpView.xml" path="/components/" exported="true"/>
+    <component id="qw2011" name="HelpItem.xml" path="/components/" exported="true"/>
+    <component id="qw2018" name="TipView.xml" path="/components/" exported="true"/>
+    <image id="fc6p1m" name="bydr_help_bg_1.png" path="/Assets/help/" scale="9grid" scale9grid="281,122,562,244"/>
+    <image id="fc6p1n" name="bydr_help_bg_gaojipao.png" path="/Assets/help/"/>
+    <image id="fc6p1o" name="bydr_help_bg_putongp.png" path="/Assets/help/"/>
+    <image id="fc6p1p" name="bydr_help_bg_tejipao.png" path="/Assets/help/"/>
+    <image id="fc6p1q" name="bydr_help_bg_yu.png" path="/Assets/help/" scale="9grid" scale9grid="52,27,104,54"/>
+    <image id="fc6p1r" name="bydr_help_btn_paotjs.png" path="/Assets/help/"/>
+    <image id="fc6p1s" name="bydr_help_btn_paotjs1.png" path="/Assets/help/"/>
+    <image id="fc6p1t" name="bydr_help_btn_wanfgz.png" path="/Assets/help/"/>
+    <image id="fc6p1u" name="bydr_help_btn_wanfgz1.png" path="/Assets/help/"/>
+    <image id="fc6p1v" name="bydr_help_btn_yuljs.png" path="/Assets/help/"/>
+    <image id="fc6p1w" name="bydr_help_btn_yuljs1.png" path="/Assets/help/"/>
+    <image id="fc6p2j" name="bydr_help_text_bangz.png" path="/Assets/help/"/>
+    <image id="fc6p2k" name="bydr_help_text_neir.png" path="/Assets/help/"/>
+    <image id="fc6p2o" name="brdr_grxx_bg_xian.png" path="/Assets/help/"/>
+    <component id="fc6p2r" name="HelpPlayPanel.xml" path="/components/"/>
+    <image id="fc6p2s" name="bydr_phb_bg_neirongk.png" path="/Assets/rank/"/>
+    <image id="fc6p2t" name="bydr_phb_bg_shuzik.png" path="/Assets/rank/"/>
+    <image id="fc6p2u" name="bydr_phb_btn_benzhou.png" path="/Assets/rank/"/>
+    <image id="fc6p2v" name="bydr_phb_btn_benzhou1.png" path="/Assets/rank/"/>
+    <image id="fc6p2w" name="bydr_phb_btn_shangzhou.png" path="/Assets/rank/"/>
+    <image id="fc6p2x" name="bydr_phb_btn_shangzhou1.png" path="/Assets/rank/"/>
+    <image id="fc6p2y" name="bydr_phb_icon_jiangbei.png" path="/Assets/rank/"/>
+    <image id="fc6p2z" name="bydr_phb_icon_rank0.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p30" name="bydr_phb_icon_rank1.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p31" name="bydr_phb_icon_rank2.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p32" name="bydr_phb_icon_rank3.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p33" name="bydr_phb_num_0.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p34" name="bydr_phb_num_1.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p35" name="bydr_phb_num_2.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p36" name="bydr_phb_num_3.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p37" name="bydr_phb_num_4.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p38" name="bydr_phb_num_5.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p39" name="bydr_phb_num_6.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p3a" name="bydr_phb_num_7.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p3b" name="bydr_phb_num_8.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p3c" name="bydr_phb_num_9.png" path="/Assets/rank/" exported="true"/>
+    <image id="fc6p3d" name="bydr_phb_text_paihangb.png" path="/Assets/rank/"/>
+    <image id="fc6p3e" name="排行榜效果图.png" path="/Assets/rank/"/>
+    <component id="fc6p3f" name="RankView.xml" path="/components/" exported="true"/>
+    <image id="fc6p3g" name="bg2.png" path="/Assets/" scale="9grid" scale9grid="52,27,104,54"/>
+    <font id="fc6p3h" name="rankFont.fnt" path="/components/" exported="true"/>
+    <image id="fc6p3j" name="brdr_grxx_bg_xian.png" path="/Assets/help/"/>
+    <image id="fc6p3k" name="bydr_help_bg_1.png" path="/Assets/help/"/>
+    <image id="fc6p3l" name="bydr_help_bg_gaojipao.png" path="/Assets/help/"/>
+    <image id="fc6p3m" name="bydr_help_bg_putongp.png" path="/Assets/help/"/>
+    <image id="fc6p3n" name="bydr_help_bg_tejipao.png" path="/Assets/help/"/>
+    <image id="fc6p3o" name="bydr_help_bg_yu.png" path="/Assets/help/"/>
+    <image id="fc6p3p" name="bydr_help_btn_paotjs.png" path="/Assets/help/"/>
+    <image id="fc6p3q" name="bydr_help_btn_paotjs1.png" path="/Assets/help/"/>
+    <image id="fc6p3r" name="bydr_help_btn_wanfgz.png" path="/Assets/help/"/>
+    <image id="fc6p3s" name="bydr_help_btn_wanfgz1.png" path="/Assets/help/"/>
+    <image id="fc6p3t" name="bydr_help_btn_yuljs.png" path="/Assets/help/"/>
+    <image id="fc6p3u" name="bydr_help_btn_yuljs1.png" path="/Assets/help/"/>
+    <image id="fc6p4i" name="bydr_help_text_bangz.png" path="/Assets/help/"/>
+    <image id="maic4n" name="bydr_dt_icon_toux.png" path="/Assets/rank/"/>
+    <image id="maic4o" name="bydr_phb_bg_juesek.png" path="/Assets/rank/"/>
+    <image id="maic4p" name="bydr_dt_icon_jinbi.png" path="/Assets/rank/"/>
+    <image id="maic4q" name="brdr_szjm_bg_1.png" path="/Assets/setting/"/>
+    <image id="maic4r" name="brdr_szjm_bg_jindut.png" path="/Assets/setting/" exported="true"/>
+    <image id="maic4s" name="brdr_szjm_bg_jindut1.png" path="/Assets/setting/" exported="true" scale="9grid" scale9grid="22,5,308,17" duplicatePadding="true"/>
+    <image id="maic4t" name="brdr_szjm_btn_gb.png" path="/Assets/setting/"/>
+    <image id="maic4u" name="brdr_szjm_btn_tuoodng.png" path="/Assets/setting/" exported="true"/>
+    <image id="maic4v" name="brdr_szjm_text_shez.png" path="/Assets/setting/"/>
+    <image id="maic4w" name="brdr_szjm_text_yinx.png" path="/Assets/setting/"/>
+    <image id="maic4x" name="brdr_szjm_text_yiny.png" path="/Assets/setting/"/>
+    <image id="maic4y" name="设置效果图.png" path="/Assets/setting/"/>
+    <component id="maic4z" name="SettingSlide_grip.xml" path="/components/"/>
+    <component id="maic50" name="SettingSlide.xml" path="/components/"/>
+    <image id="sxcx51" name="brdr_grxx_bg_1.png" path="/Assets/info/"/>
+    <image id="sxcx52" name="brdr_grxx_bg_xian.png" path="/Assets/info/"/>
+    <image id="sxcx53" name="brdr_grxx_btn_help.png" path="/Assets/info/"/>
+    <image id="sxcx54" name="brdr_grxx_btn_help1.png" path="/Assets/info/"/>
+    <image id="sxcx55" name="brdr_grxx_text_grxx.png" path="/Assets/info/"/>
+    <image id="sxcx56" name="个人信息效果图.png" path="/Assets/info/"/>
+    <component id="sxcx57" name="InfoView.xml" path="/components/" exported="true"/>
+    <component id="sxcx58" name="tipBtn.xml" path="/components/"/>
+    <image id="sxcx59" name="bydr_dt_bg_touxk.png" path="/Assets/"/>
+    <image id="sxcx5a" name="bydr_dt_bg_jindut.png" path="/Assets/"/>
+    <image id="sxcx5c" name="bydr_dt_bg_jinbik.png" path="/Assets/"/>
+    <image id="sxcx5d" name="bydr_dt_icon_jinbi.png" path="/Assets/"/>
+    <image id="sxcx5e" name="bydr_dt_icon_toux1.png" path="/Assets/" exported="true"/>
+    <image id="sxcx5f" name="bydr_dt_icon_toux2.png" path="/Assets/" exported="true"/>
+    <image id="sxcx5g" name="bydr_dt_icon_toux3.png" path="/Assets/" exported="true"/>
+    <image id="n6ya5h" name="bydr_phb_bg_neirongk_gaol.png" path="/Assets/rank/"/>
+    <image id="n6ya5i" name="bydr_phb_icon_jiantou.png" path="/Assets/rank/"/>
+    <component id="fc6p2p" name="HelpYuPanel.xml" path="/components/" exported="true"/>
+    <image id="n8sw74v" name="static_fish_14.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw74w" name="static_fish_17.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw74y" name="static_fish_10.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw74z" name="static_fish_11.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw750" name="static_fish_12.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw751" name="static_fish_13.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw752" name="static_fish_15.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw753" name="static_fish_16.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw754" name="static_fish_18.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw755" name="static_fish_19.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw756" name="static_fish_23.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw75y" name="static_fish_1.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw75z" name="static_fish_2.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw760" name="static_fish_3.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw761" name="static_fish_4.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw762" name="static_fish_5.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw763" name="static_fish_6.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw764" name="static_fish_7.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw765" name="static_fish_8.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n8sw766" name="static_fish_9.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="vmmd76p" name="static_fish_21.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="vmmd76q" name="static_fish_22.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="vmmd76r" name="static_fish_20.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n86c777" name="fish_23_name.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n86c778" name="fish_25_name.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n86c779" name="fish_24_name.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n86c77a" name="fish_26_name.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n86c77b" name="fish_22_name.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="n86c77c" name="fish_27_name.png" path="/Assets/staticFish/" exported="true"/>
+    <component id="rgdn5j" name="FishTypeItem.xml" path="/components/" exported="true"/>
+    <font id="d7af729" name="fishCoinFont.fnt" path="/components/" exported="true"/>
+    <image id="d7af71s" name="1.png" path="/Assets/fishCoinFont/" exported="true"/>
+    <image id="d7af71t" name="2.png" path="/Assets/fishCoinFont/" exported="true"/>
+    <image id="d7af71u" name="0.png" path="/Assets/fishCoinFont/" exported="true"/>
+    <image id="d7af71v" name="8.png" path="/Assets/fishCoinFont/" exported="true"/>
+    <image id="d7af71w" name="9.png" path="/Assets/fishCoinFont/" exported="true"/>
+    <image id="d7af71x" name="6.png" path="/Assets/fishCoinFont/" exported="true"/>
+    <image id="d7af71y" name="7.png" path="/Assets/fishCoinFont/" exported="true"/>
+    <image id="d7af71z" name="4.png" path="/Assets/fishCoinFont/" exported="true"/>
+    <image id="d7af720" name="5.png" path="/Assets/fishCoinFont/" exported="true"/>
+    <image id="d7af721" name="3.png" path="/Assets/fishCoinFont/" exported="true"/>
+    <image id="d7af72a" name="..png" path="/Assets/fishCoinFont/" exported="true"/>
+    <image id="n8sw74j" name="bydr_zdby_bg_yuk1.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="uhyn77d" name="static_triStar.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="uhyn77e" name="static_four.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="uhyn77f" name="static_catchAll.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="uhyn77g" name="static_jackPot.png" path="/Assets/staticFish/" exported="true"/>
+    <image id="uhyn77h" name="bydr_help_num_gang.png" path="/Assets/fishCoinFont/" exported="true"/>
+    <component id="uhyn77i" name="HelpPlayContentView.xml" path="/components/"/>
+    <component id="tb5z77j" name="rankListContentView.xml" path="/components/"/>
+  </resources>
+  <publish name="briefUI" path="{publishRoot}\briefUI" genCode="true"/>
+</packageDescription>

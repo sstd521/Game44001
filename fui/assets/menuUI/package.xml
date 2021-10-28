@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7biyjcck" jpegQuality="80" compressPNG="true">
+  <resources/>
+  <publish name="menuUI" path="{publishRoot}\menuUI" genCode="true"/>
+</packageDescription>

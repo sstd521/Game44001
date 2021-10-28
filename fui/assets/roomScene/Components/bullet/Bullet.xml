@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="47,111" pivot="0.5,0" opaque="false">
+  <displayList>
+    <loader id="n0_9lp3" name="bulletLoader" xy="0,0" size="47,111" touchable="false" url="ui://0lwk28v89lp3f" align="center"/>
+  </displayList>
+</component>
